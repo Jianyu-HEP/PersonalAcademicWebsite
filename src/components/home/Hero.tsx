@@ -55,14 +55,14 @@ export default function Hero({ author, social, researchInterests = [] }: HeroCom
                 {messages.home.currentThemes}
               </p>
               <div className="flex flex-wrap gap-2">
-              {researchInterests.map((interest) => (
-                <span
-                  key={interest}
-                  className="rounded-full border border-accent/20 bg-accent/8 px-3 py-1 text-sm text-neutral-700 dark:text-neutral-200"
-                >
-                  {interest}
-                </span>
-              ))}
+                {researchInterests.map((interest) => (
+                  <span
+                    key={interest}
+                    className="rounded-full border border-accent/20 bg-accent/8 px-3 py-1 text-sm text-neutral-700 dark:text-neutral-200"
+                  >
+                    {interest}
+                  </span>
+                ))}
               </div>
             </div>
           )}
