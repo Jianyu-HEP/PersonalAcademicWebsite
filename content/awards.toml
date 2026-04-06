@@ -1,27 +1,27 @@
 type = "card"
 title = "Awards"
-description = "Honors and awards I have received."
+description = "Selected academic honors and professional recognitions."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2025"
-content = "Description of the award."
-
-[[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2024"
-content = "Description of the award."
-
-[[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2023"
-content = "Description of the award."
-
-[[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "Outstanding PhD Thesis"
+subtitle = "Institute of High Energy Physics"
 date = "2022"
-content = "Description of the award."
+content = "Recognized for doctoral thesis work on hyperon decays and CP violation at BESIII."
+
+[[items]]
+title = "Outstanding Individual in Annual Assessment"
+subtitle = "University of Chinese Academy of Sciences"
+date = "2022, 2023, 2024"
+content = "Awarded for sustained academic and professional performance."
+
+[[items]]
+title = "BESIII PhD Thesis Award"
+subtitle = "BESIII Collaboration"
+date = "2022"
+content = "Award for excellent doctoral thesis contribution within BESIII."
+
+[[items]]
+title = "First Prize, 13th \"Chenguang Cup\" Young Outstanding Paper Award"
+subtitle = "High Energy Physics Division, Chinese Physical Society"
+date = "2024"
+content = "First Prize for outstanding young-author paper contribution."

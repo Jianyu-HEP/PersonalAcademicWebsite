@@ -1,9 +1,38 @@
 type = "card"
 title = "Services"
-description = "Professional services and community involvement."
+description = "Collaboration service, technical contributions, and academic community work."
 
 [[items]]
-title = "Reviewer"
-subtitle = "Journal Name"
-date = "2024"
-content = "Reviewed papers for..."
+title = "Internal Paper Review"
+subtitle = "BESIII Collaboration"
+date = "Ongoing"
+content = "Contributed to internal paper review and analysis validation workflows in BESIII."
+tags = ["BESIII", "Review", "Collaboration Service"]
+
+[[items]]
+title = "Data Acquisition and Detector Operations"
+subtitle = "BESIII"
+date = "Ongoing"
+content = "Performed data-acquisition shifts and supported routine experimental operations."
+tags = ["BESIII", "DAQ", "Operations"]
+
+[[items]]
+title = "Software and Vertex-Fit Studies"
+subtitle = "BESIII Software Environment"
+date = "Ongoing"
+content = "Contributed to software environment improvements and vertex-fit related studies."
+tags = ["Software", "Vertex Fit", "BESIII"]
+
+[[items]]
+title = "MC Liaison"
+subtitle = "LHCb Charm Working Group"
+date = "Since 2024"
+content = "Serve as MC liaison, coordinating simulation-related workflow and communication for charm analyses."
+tags = ["LHCb", "Charm", "MC Liaison"]
+
+[[items]]
+title = "Student Mentoring and Academic Service"
+subtitle = "University of Chinese Academy of Sciences"
+date = "Ongoing"
+content = "Mentoring/supervising students and participating in academic administrative service activities at UCAS."
+tags = ["Mentoring", "UCAS", "Academic Service"]

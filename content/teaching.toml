@@ -1,17 +1,24 @@
 type = "card"
 title = "Teaching"
-description = "Teaching experience in physics and related quantitative courses."
+description = "Teaching, mentoring, and student training activities."
 
 [[items]]
-title = "Quantum Mechanics"
+title = "Atomic Physics"
 subtitle = "Teaching Assistant"
-date = "2025"
-content = "Led discussion sessions, graded assignments, and supported students with problem-solving and conceptual questions."
-tags = ["Undergraduate", "Physics"]
+date = "2019, 2020, 2022"
+content = "Teaching Assistant at UCAS: led discussion sessions, supported coursework, and assisted with problem-solving training."
+tags = ["UCAS", "Teaching Assistant", "Atomic Physics"]
 
 [[items]]
-title = "Mathematical Methods for Physics"
-subtitle = "Teaching Assistant"
+title = "Summer Science and Innovation Practice Activities in Particle Physics Experiments"
+subtitle = "Instructor"
 date = "2024"
-content = "Assisted with tutorials on differential equations, linear algebra, and complex analysis for physics students."
-tags = ["Undergraduate", "Mathematical Physics"]
+content = "Designed and delivered instructional activities on particle-physics experiments and data-analysis workflows."
+tags = ["UCAS", "Instructor", "Particle Physics"]
+
+[[items]]
+title = "Research Mentoring and Student Supervision"
+subtitle = "Graduate and Undergraduate Training"
+date = "Ongoing"
+content = "Mentoring experience with master's students, doctoral students, and undergraduate thesis projects."
+tags = ["Mentoring", "Graduate Training", "Supervision"]

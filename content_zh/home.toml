@@ -3,9 +3,11 @@ title = "首页"
 
 [profile]
 research_interests = [
-  "对撞机唯象学",
-  "超越标准模型物理",
-  "喷注物理与精确 QCD"
+  "超子 CP 破坏与衰变不对称精确测量",
+  "超子电偶极矩（EDM）",
+  "超子-核子相互作用及其强子/核物理意义",
+  "e+e- 对撞机重子物理实验方法",
+  "LHCb 粲强子振幅分析"
 ]
 
 [[sections]]
@@ -20,9 +22,3 @@ type = "publications"
 title = "代表论文"
 filter = "selected"
 limit = 5
-
-[[sections]]
-id = "news"
-type = "list"
-title = "动态"
-source = "news.toml"
