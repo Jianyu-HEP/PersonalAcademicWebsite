@@ -3,9 +3,10 @@ title = "首页"
 
 [profile]
 research_interests = [
-  "对撞机唯象学",
-  "超越标准模型物理",
-  "喷注物理与精确 QCD"
+  "超子 CP 破坏：在奇异重子体系中开展衰变不对称参数与对称性检验的精密测量。",
+  "超子电偶极矩（EDM）：利用自旋观测量与 CP 奇关联发展间接灵敏度研究。",
+  "超子-核子相互作用：基于 e+e- 对撞机数据研究重子相互作用及其强子/核物理意义。",
+  "BESIII 与 LHCb 分析：以数据驱动方法连接超子结构研究与粲强子共振动力学。"
 ]
 
 [[sections]]
@@ -19,7 +20,7 @@ id = "featured_publications"
 type = "publications"
 title = "代表论文"
 filter = "selected"
-limit = 5
+limit = 4
 
 [[sections]]
 id = "news"

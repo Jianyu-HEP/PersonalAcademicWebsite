@@ -1,9 +1,38 @@
 type = "card"
 title = "学术服务"
-description = "专业服务与社区参与。"
+description = "合作组服务、技术贡献与学术共同体工作。"
 
 [[items]]
-title = "审稿人"
-subtitle = "某期刊"
-date = "2024"
-content = "参与审阅论文。"
+title = "BESIII 内部论文评审"
+subtitle = "BESIII 合作组"
+date = "持续进行"
+content = "参与内部论文评审与分析结果验证工作。"
+tags = ["BESIII", "评审", "合作组服务"]
+
+[[items]]
+title = "数据获取与实验运行支持"
+subtitle = "BESIII"
+date = "持续进行"
+content = "承担 BESIII 数据获取班次（shift）与实验运行支持工作。"
+tags = ["BESIII", "DAQ", "实验运行"]
+
+[[items]]
+title = "软件环境与顶点拟合研究"
+subtitle = "BESIII 软件系统"
+date = "持续进行"
+content = "参与 BESIII 软件环境建设及顶点拟合相关研究工作。"
+tags = ["软件", "顶点拟合", "BESIII"]
+
+[[items]]
+title = "MC 协调工作"
+subtitle = "LHCb Charm 工作组"
+date = "自 2024 年起"
+content = "担任 MC liaison，负责粲物理分析相关模拟流程协调与沟通。"
+tags = ["LHCb", "Charm", "MC liaison"]
+
+[[items]]
+title = "学生指导与学术行政服务"
+subtitle = "中国科学院大学"
+date = "持续进行"
+content = "参与研究生、本科生指导与院校相关学术服务工作。"
+tags = ["学生培养", "国科大", "学术服务"]

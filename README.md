@@ -39,10 +39,10 @@ PRISM stands for **P**ortfolio & **R**esearch **I**nterface **S**ite **M**aker. 
     cd PRISM
     ```
 
-2.  **Install dependencies:**
+2.  **Install dependencies (recommended):**
 
     ```bash
-    npm install
+    npm ci
     ```
 
 3.  **Run the development server:**
