@@ -4,18 +4,18 @@ description = "Current research themes in high energy physics."
 
 [[items]]
 title = "Collider Phenomenology"
-subtitle = "LHC observables, signatures, and interpretation"
-content = "Research on observables and search strategies that connect theoretical predictions to current and future collider measurements."
-tags = ["LHC", "Phenomenology", "BSM"]
+subtitle = "LHC observables, signatures, and interpretation frameworks"
+content = "Developing phenomenological tools to map precision and high-pT measurements onto theory parameters, with emphasis on robust uncertainty treatment and interpretation-ready observables."
+tags = ["LHC", "Phenomenology", "SMEFT"]
 
 [[items]]
-title = "Precision Quantum Field Theory"
+title = "Precision Quantum Field Theory for Collider Physics"
 subtitle = "Perturbative calculations and theory systematics"
-content = "Work on precision calculations, uncertainty estimates, and tools that improve the comparison between theory and experiment."
-tags = ["QCD", "EFT", "Precision"]
+content = "Work on precision QCD/EW calculations, scale-variation systematics, and matching strategies that improve direct comparison between theoretical predictions and experimental analyses."
+tags = ["QCD", "Electroweak", "Precision"]
 
 [[items]]
-title = "Data-Driven Analysis in HEP"
-subtitle = "Inference and modern analysis methods"
-content = "Exploration of statistically robust and computationally efficient methods for extracting physics from complex collider data."
-tags = ["Statistics", "Inference", "Analysis"]
+title = "Inference and Analysis Methods in HEP"
+subtitle = "Statistical interpretation and computational workflows"
+content = "Designing statistically robust and computationally efficient analysis pipelines for extracting physics constraints from complex collider datasets, including EFT parameter inference."
+tags = ["Statistics", "Inference", "HEP Data"]

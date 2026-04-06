@@ -3,9 +3,10 @@ title = "Home"
 
 [profile]
 research_interests = [
-  "Collider phenomenology",
-  "Physics beyond the Standard Model",
-  "Jet physics and precision QCD"
+  "Collider phenomenology at the LHC and future hadron colliders",
+  "Effective field theory and precision Standard Model predictions",
+  "Physics beyond the Standard Model in high-energy signatures",
+  "Jet substructure, precision QCD, and data-driven inference"
 ]
 
 [[sections]]
