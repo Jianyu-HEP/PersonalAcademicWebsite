@@ -4,6 +4,7 @@ import type { ComponentProps } from 'react';
 import { motion } from 'framer-motion';
 import { AcademicCapIcon, DocumentTextIcon, EnvelopeIcon } from '@heroicons/react/24/outline';
 import { useMessages } from '@/lib/i18n/useMessages';
+import { withBasePath } from '@/lib/utils';
 
 interface QuickLinkItem {
   label: string;
@@ -94,7 +95,7 @@ export default function QuickLinks({
           return (
             <a
               key={link.label}
-              href={link.href}
+              href={link.external ? link.href : withBasePath(link.href)}
               target={link.external ? '_blank' : undefined}
               rel={link.external ? 'noopener noreferrer' : undefined}
               className="group flex items-center justify-between rounded-2xl border border-neutral-200 px-4 py-3 transition-colors hover:border-accent/40 hover:bg-accent/5 dark:border-neutral-800 dark:hover:border-accent/40"

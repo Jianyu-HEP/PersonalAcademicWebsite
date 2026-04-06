@@ -3,9 +3,10 @@ title = "Home"
 
 [profile]
 research_interests = [
-  "Collider phenomenology",
-  "Physics beyond the Standard Model",
-  "Jet physics and precision QCD"
+  "Hyperon CP violation: Precision decay-asymmetry observables and symmetry tests in strange-baryon systems.",
+  "Hyperon electric dipole moments: Indirect sensitivity studies through spin observables and CP-odd correlations.",
+  "Hyperon-nucleon interactions: Baryon interaction measurements at e+e- colliders with hadronic and nuclear implications.",
+  "BESIII and LHCb analyses: Data-driven methods linking hyperon structure studies and charmed-hadron resonance dynamics."
 ]
 
 [[sections]]
@@ -19,7 +20,7 @@ id = "featured_publications"
 type = "publications"
 title = "Selected Publications"
 filter = "selected"
-limit = 5
+limit = 4
 
 [[sections]]
 id = "news"
