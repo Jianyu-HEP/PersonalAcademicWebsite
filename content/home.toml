@@ -3,11 +3,10 @@ title = "Home"
 
 [profile]
 research_interests = [
-  "Hyperon CP violation and decay asymmetry measurements",
-  "Hyperon electric dipole moments",
-  "Hyperon-nucleon interactions and hadronic/nuclear implications",
-  "Experimental methods in e+e- collider baryon physics",
-  "Charm-hadron amplitude analysis at LHCb"
+  "Hyperon CP violation: Precision decay-asymmetry observables and symmetry tests in strange-baryon systems.",
+  "Hyperon electric dipole moments: Indirect sensitivity studies through spin observables and CP-odd correlations.",
+  "Hyperon-nucleon interactions: Baryon interaction measurements at e+e- colliders with hadronic and nuclear implications.",
+  "BESIII and LHCb analyses: Data-driven methods linking hyperon structure studies and charmed-hadron resonance dynamics."
 ]
 
 [[sections]]
@@ -21,4 +20,4 @@ id = "featured_publications"
 type = "publications"
 title = "Selected Publications"
 filter = "selected"
-limit = 5
+limit = 3

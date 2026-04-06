@@ -68,29 +68,34 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
 
   return (
     <div className="min-h-screen bg-background">
-      <div className="mx-auto flex max-w-6xl flex-col gap-8 px-4 py-8 sm:px-6 lg:px-8 lg:py-10">
+      <div className="mx-auto flex max-w-5xl flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8 lg:py-10">
         <Hero
           author={data.author}
           social={data.social}
-          researchInterests={data.researchInterests}
         />
 
-        <div className="mx-auto w-full max-w-4xl space-y-8">
+        <div className="mx-auto w-full max-w-4xl space-y-6">
           {aboutSection?.type === 'markdown' && (
-            <About
-              content={aboutSection.content || ''}
-              title={aboutSection.title}
-            />
+            <section id="about">
+              <About
+                content={aboutSection.content || ''}
+                title={aboutSection.title}
+              />
+            </section>
           )}
 
-          <ResearchInterests interests={data.researchInterests || []} />
+          <section id="research">
+            <ResearchInterests interests={data.researchInterests || []} />
+          </section>
 
           {publicationsSection?.type === 'publications' && (
-            <SelectedPublications
-              publications={publicationsSection.publications || []}
-              title={publicationsSection.title}
-              enableOnePageMode={data.enableOnePageMode}
-            />
+            <section id="selected-publications">
+              <SelectedPublications
+                publications={publicationsSection.publications || []}
+                title={publicationsSection.title}
+                enableOnePageMode={data.enableOnePageMode}
+              />
+            </section>
           )}
 
           <QuickLinks social={data.social} />
