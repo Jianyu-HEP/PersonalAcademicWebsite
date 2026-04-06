@@ -1,26 +1,28 @@
 ## Education
 
-**The University of Example**, PhD in Natural Science, *2025 - Present*
-- Research focus: Mathematical Principles of Natural Philosophy
-- Supervisor: Prof. Advisor One and Dr. Advisor Two
+**[PLACEHOLDER: University Name]**, PhD in Physics (High-Energy Physics), *[PLACEHOLDER: Year] - Present*
+- Research area: Collider phenomenology, precision QCD/EW predictions, and EFT interpretations
+- Advisors: **[PLACEHOLDER: Advisor Name(s)]**
 
-**The University of Example**, BSc in Natural Science, *2021 - 2025*
-- Graduated with First Class Honours
+**[PLACEHOLDER: University Name]**, BSc/MSc in Physics, *[PLACEHOLDER: Year Range]*
+- Thesis: **[PLACEHOLDER: Thesis Title]**
+- Honors: **[PLACEHOLDER: Distinctions / GPA / Rank]**
 
 ## Experience
 
-**Example Role**
-Company/Institution
-*2023 - 2024*
-- Description of key responsibilities and achievements.
-- Utilized skills to solve problems.
+**[PLACEHOLDER: Research Assistant / Visiting Student]**  
+**[PLACEHOLDER: Institution / Lab]**  
+*[PLACEHOLDER: Year Range]*
+- Conducted research on **[PLACEHOLDER: topic]** with emphasis on reproducible computational workflows.
+- Contributed to internal analysis notes and collaboration-level presentations.
 
 ## Skills
 
-- **Programming:** Python, C++, MATLAB, LaTeX
-- **Data Analysis:** Pandas, NumPy, SciPy
-- **Languages:** English (Native), French (Fluent)
+- **Programming:** Python, C++, Julia, LaTeX, Bash
+- **HEP Tooling:** ROOT, HepMC, MadGraph, Rivet, LHAPDF *(adjust to actual toolkit)*
+- **Data/Compute:** NumPy, SciPy, JAX/PyTorch *(if applicable)*, Git, Linux
+- **Languages:** **[PLACEHOLDER: language proficiency]**
 
 ## Awards & Honors
 
-- **First Prize in Example Competition** - Committee of Example (*2024*)
+- **[PLACEHOLDER: Fellowship / Scholarship / Award]** — *[PLACEHOLDER: Year]*
