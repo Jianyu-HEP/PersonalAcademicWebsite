@@ -10,10 +10,9 @@ import { withBasePath } from '@/lib/utils';
 interface HeroProps {
   author: SiteConfig['author'];
   social: SiteConfig['social'];
-  researchInterests?: string[];
 }
 
-export default function Hero({ author, social, researchInterests }: HeroProps) {
+export default function Hero({ author, social }: HeroProps) {
   const messages = useMessages();
   const roleLine = `${author.title} · ${author.institution}`;
   const conciseInterests = (researchInterests || []).slice(0, 4).map((interest) => {
