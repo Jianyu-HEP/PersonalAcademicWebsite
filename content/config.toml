@@ -1,29 +1,29 @@
 [site]
-title = "Jiale Liu"
-description = "Academic homepage for research in high-energy physics and collider phenomenology."
+title = "Jianyu Zhang"
+description = "Personal academic homepage of Jianyu Zhang, experimental high-energy physicist working on hyperon physics, CP violation, hyperon EDMs, and hyperon-nucleon interactions."
 favicon = "/favicon.svg"
-last_updated = "April 5, 2026"
+last_updated = "April 6, 2026"
 
 [author]
-name = "Jiale Liu"
-title = "PhD Student in High-Energy Physics"
-institution = "[PLACEHOLDER: University / Institute]"
+name = "Jianyu Zhang"
+title = "Postdoctoral Fellow / Special Research Assistant"
+institution = "University of Chinese Academy of Sciences, Beijing, China"
 avatar = "/bio.jpg"
 
 [social]
-email = "[PLACEHOLDER: your.email@institution.edu]"
-location = "[PLACEHOLDER: City, Country]"
-location_url = "https://maps.google.com/?q=[PLACEHOLDER]"
+email = "jianyu.zhang@cern.ch"
+location = "Beijing, China"
+location_url = "https://maps.google.com/?q=University+of+Chinese+Academy+of+Sciences+Beijing"
 location_details = [
-  "[PLACEHOLDER: Office / Building],",
-  "[PLACEHOLDER: Street / Campus, City, Country]"
+  "University of Chinese Academy of Sciences,",
+  "Beijing, China"
 ]
-google_scholar = "https://scholar.google.com/citations?user=[PLACEHOLDER]"
-orcid = "https://orcid.org/[PLACEHOLDER]"
-github = "https://github.com/[PLACEHOLDER]"
-linkedin = "https://www.linkedin.com/in/[PLACEHOLDER]"
-inspire = "https://inspirehep.net/authors/[PLACEHOLDER]"
-arxiv = "https://arxiv.org/a/[PLACEHOLDER].html"
+google_scholar = "https://scholar.google.com/citations?user=REPLACE_ME"
+orcid = "https://orcid.org/0000-0001-6010-8556"
+github = "https://github.com/REPLACE_ME"
+linkedin = "https://www.linkedin.com/in/REPLACE_ME"
+inspire = "https://inspirehep.net/authors/REPLACE_ME"
+arxiv = "https://arxiv.org/a/REPLACE_ME.html"
 cv = "/cv"
 
 [features]

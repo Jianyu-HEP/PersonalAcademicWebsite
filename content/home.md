@@ -1,5 +1,5 @@
-I am a researcher in **high-energy physics (HEP)** working on the interface between precision theory and collider data analysis. My current work focuses on turning quantum field theory calculations into experimentally testable predictions for hadron-collider observables.
+I am an experimental high-energy physicist working on hyperon physics, CP violation, hyperon EDMs, and hyperon-nucleon interactions in BESIII and LHCb.
 
-My long-term goal is to improve how we extract fundamental physics from increasingly precise measurements, including constraints on physics beyond the Standard Model.
+My work focuses on precision studies of hyperon decay dynamics and baryon-sector symmetry tests, including CP asymmetry measurements, indirect probes of hyperon electric dipole moments, and new methods for hyperon interaction studies at e+e- colliders.
 
-This website provides a concise overview of my research program, selected publications, talks, teaching, and professional links. Items marked with **[PLACEHOLDER]** are intended to be replaced with your final personal details.
+This homepage presents a concise overview of my research program, selected publications, talks, teaching/mentoring activities, and professional service.

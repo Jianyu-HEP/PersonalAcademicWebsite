@@ -1,15 +1,16 @@
 # About
 
-I am a PhD researcher in high-energy physics with a focus on **collider phenomenology**, **effective field theory**, and **precision tests of the Standard Model**.
+I am **Jianyu Zhang**, a Postdoctoral Fellow / Special Research Assistant at the University of Chinese Academy of Sciences, Beijing, China.
 
-My work aims to build quantitative bridges between theory and experiment, especially for observables where perturbative QCD, electroweak effects, and realistic detector-facing analysis choices all matter simultaneously.
+My research is in **experimental high-energy physics**, centered on hyperon physics and symmetry tests in the baryon sector. I work on precision measurements of hyperon decay parameters, CP-violation observables, and hyperon electric dipole moment sensitivity.
 
-I am particularly interested in:
+My current research program spans BESIII and LHCb and includes:
 
-- precision collider observables and uncertainty quantification,
-- model-independent BSM interpretations using EFT frameworks,
-- robust and reproducible analysis pipelines for HEP data.
+1. CP symmetry tests in entangled hyperon-antihyperon production and decay,
+2. indirect probes of hyperon EDMs via full angular analyses,
+3. hyperon-nucleon interaction studies with e+e- collider data and their hadronic/nuclear implications,
+4. resonance studies in charmed-hadron decays at LHCb using partial-wave analysis.
 
-Before my current position, I received training in theoretical and computational physics and developed a strong interest in the conceptual foundations of particle physics.
+At LHCb, I also serve as an MC liaison in the Charm working group. Across collaborations, my work combines precision detector-level measurements with analysis methods aimed at robust physics interpretation and long-term reproducibility.
 
-Institutional details, advisor names, and timeline entries are currently marked as **[PLACEHOLDER]** where needed and can be updated directly in the content files.
+I completed my PhD at the Institute of High Energy Physics (IHEP), Chinese Academy of Sciences, where my thesis focused on hyperon decays and CP violation at BESIII.

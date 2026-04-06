@@ -1,4 +1,4 @@
 type = "publication"
 title = "Publications"
-description = "A curated publication record parsed from BibTeX, including selected papers highlighted on the homepage."
+description = "Selected and full publication record in experimental hyperon and baryon-sector high-energy physics."
 source = "publications.bib"
