@@ -233,6 +233,9 @@ function cleanBibTeXString(str?: string): string {
   // Remove outer quotes if present
   let cleaned = str.replace(/^["']|["']$/g, '');
 
+  // Normalize common LaTeX/math fragments before brace cleanup
+  cleaned = normalizeLaTeXFragments(cleaned);
+
   // Handle nested braces more carefully
   // First remove double braces {{content}} -> content
   cleaned = cleaned.replace(/\{\{([^}]*)\}\}/g, '$1');
@@ -261,6 +264,39 @@ function cleanBibTeXString(str?: string): string {
   cleaned = cleaned.replace(/\s+/g, ' ').trim();
 
   return cleaned;
+}
+
+function normalizeLaTeXFragments(input: string): string {
+  let text = input;
+
+  // Remove ensuremath wrappers and inline math delimiters
+  text = text.replace(/\{\\ensuremath\{([^}]*)\}\}/g, '$1');
+  text = text.replace(/\$/g, '');
+
+  // Common arrows/operators
+  text = text.replace(/\\textrightarrow/g, '→');
+  text = text.replace(/\\rightarrow/g, '→');
+  text = text.replace(/\\!+/g, '');
+
+  // Common particle-physics patterns
+  text = text.replace(/\\bar\s*\{\\Lambda\}/g, 'Λ̄');
+  text = text.replace(/\\bar\s*\\Lambda/g, 'Λ̄');
+  text = text.replace(/\\bar\s*\{\\Xi\}/g, 'Ξ̄');
+  text = text.replace(/\\bar\s*\\Xi/g, 'Ξ̄');
+
+  // Greek symbols
+  text = text.replace(/\\Lambda/g, 'Λ');
+  text = text.replace(/\\Xi/g, 'Ξ');
+  text = text.replace(/\\psi/g, 'ψ');
+
+  // Superscripts/signs in common collider notation
+  text = text.replace(/e\^\+e\^-/g, 'e⁺e⁻');
+  text = text.replace(/e\+e-/g, 'e⁺e⁻');
+
+  // Legacy macro from some BibTeX exports
+  text = text.replace(/\\textasciimacron/g, '̄');
+
+  return text;
 }
 
 function detectResearchArea(title: string, keywords: string[]): ResearchArea {

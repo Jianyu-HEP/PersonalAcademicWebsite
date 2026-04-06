@@ -29,6 +29,7 @@ export interface LocaleMessages {
   home: {
     currentThemes: string;
     heroLabel: string;
+    heroResearchStatement: string;
     about: string;
     aboutDescription: string;
     news: string;
@@ -42,6 +43,8 @@ export interface LocaleMessages {
     viewCv: string;
     viewAll: string;
     viewResearch: string;
+    email: string;
+    compactLinks: string;
   };
   publications: {
     searchPlaceholder: string;
@@ -90,19 +93,22 @@ const en: LocaleMessages = {
   home: {
     currentThemes: 'Current themes',
     heroLabel: 'High Energy Physics',
+    heroResearchStatement: 'Experimental high-energy physicist studying hyperon physics, CP violation, hyperon electric dipole moments, and hyperon-nucleon interactions with BESIII and LHCb.',
     about: 'About',
-    aboutDescription: 'Short academic overview and current research context.',
+    aboutDescription: 'Concise profile and current scientific focus.',
     news: 'News',
-    newsDescription: 'Recent milestones, papers, presentations, and academic updates.',
+    newsDescription: 'Recent papers, talks, and research milestones.',
     quickLinks: 'Quick Links',
-    quickLinksDescription: 'Academic profiles, CV, and direct contact.',
+    quickLinksDescription: 'Profiles, CV, and direct contact channels.',
     researchInterests: 'Research Interests',
-    researchInterestsDescription: 'A concise overview of the themes that structure the broader research program.',
+    researchInterestsDescription: 'Core themes that define the current research program.',
     selectedPublications: 'Selected Publications',
-    selectedPublicationsDescription: 'Selected papers highlighted from the full BibTeX-backed publication list.',
+    selectedPublicationsDescription: 'Curated papers representative of current research directions.',
     viewCv: 'View CV',
     viewAll: 'View All',
     viewResearch: 'View Research',
+    email: 'Email',
+    compactLinks: 'Links',
   },
   publications: {
     searchPlaceholder: 'Search publications...',
@@ -151,6 +157,7 @@ const zh: LocaleMessages = {
   home: {
     currentThemes: '当前主题',
     heroLabel: '高能物理',
+    heroResearchStatement: '实验高能物理研究者，围绕 BESIII 与 LHCb 开展超子物理、CP 破坏、超子电偶极矩以及超子-核子相互作用研究。',
     about: '关于我',
     aboutDescription: '简要介绍学术背景与当前研究方向。',
     news: '动态',
@@ -164,6 +171,8 @@ const zh: LocaleMessages = {
     viewCv: '查看简历',
     viewAll: '查看全部',
     viewResearch: '查看研究',
+    email: '邮箱',
+    compactLinks: '链接',
   },
   publications: {
     searchPlaceholder: '搜索论文...',
