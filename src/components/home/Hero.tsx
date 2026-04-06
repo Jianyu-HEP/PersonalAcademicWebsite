@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import type { SiteConfig } from '@/lib/config';
 import { useMessages } from '@/lib/i18n/useMessages';
+import { withBasePath } from '@/lib/utils';
 
 interface HeroProps {
   author: SiteConfig['author'];
@@ -79,7 +80,7 @@ export default function Hero({ author, social, researchInterests }: HeroProps) {
         <div className="mx-auto w-full max-w-[18rem]">
           <div className="relative mx-auto aspect-[4/5] overflow-hidden rounded-[1.75rem] border border-white/70 bg-neutral-200 shadow-lg dark:border-neutral-800 dark:bg-neutral-900">
             <Image
-              src={author.avatar}
+              src={withBasePath(author.avatar)}
               alt={author.name}
               fill
               priority

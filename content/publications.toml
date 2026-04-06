@@ -1,4 +1,4 @@
 type = "publication"
 title = "Publications"
-description = "Full publication list parsed from BibTeX, with selected work highlighted on the homepage."
+description = "A curated publication record parsed from BibTeX, including selected papers highlighted on the homepage."
 source = "publications.bib"

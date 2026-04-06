@@ -1,3 +1,5 @@
-I am a PhD student in high energy physics working on problems in collider phenomenology and precision theory. My research sits at the interface of formal field-theory methods, particle phenomenology, and experimentally relevant observables.
+I am a PhD researcher in **high-energy physics** working at the boundary of precision theory and collider phenomenology.
+My research program focuses on extracting reliable particle-physics constraints from LHC data by combining perturbative calculations, effective field theory methods, and statistically robust analysis workflows.
 
-This site collects a concise overview of my current research themes, selected publications, recent news, teaching activity, and links to professional profiles including Google Scholar, INSPIRE, arXiv, ORCID, and my CV.
+This homepage highlights the central themes of my work, selected publications, and recent academic updates.
+It is designed as a concise research-facing profile rather than a portfolio page, with temporary placeholders reserved only where personal details are still to be finalized.
