@@ -12,7 +12,11 @@ interface HeroProps {
   social: SiteConfig['social'];
 }
 
-export default function Hero({ author, social, researchInterests = [] }: HeroProps) {
+type HeroComponentProps = HeroProps & {
+  researchInterests?: string[];
+};
+
+export default function Hero({ author, social, researchInterests = [] }: HeroComponentProps) {
   const messages = useMessages();
   const roleLine = `${author.title} · ${author.institution}`;
   const conciseInterests = researchInterests.slice(0, 4).map((interest) => {
