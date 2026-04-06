@@ -52,36 +52,43 @@ export default function Hero({ author, social, researchInterests = [] }: HeroCom
                 <span className="font-medium text-neutral-700 dark:text-neutral-300">{messages.home.researchInterests}: </span>
                 {conciseInterests.join(' · ')}
               </p>
-            )}
+              <p className="text-sm leading-6 text-neutral-600 dark:text-neutral-400">
+                {messages.home.heroResearchStatement}
+              </p>
+            </div>
           </div>
 
-          <div className="flex flex-wrap gap-2.5 pt-1">
-            {typeof social.cv === 'string' && (
-              <Link
-                href={withBasePath(social.cv)}
-                className="inline-flex items-center rounded-full bg-primary px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-primary-light"
-              >
-                {messages.home.viewCv}
-              </Link>
-            )}
-            {typeof social.email === 'string' && (
-              <a
-                href={`mailto:${social.email}`}
-                className="inline-flex items-center rounded-full border border-neutral-300 px-4 py-2 text-sm font-medium text-primary transition-colors hover:border-accent hover:text-accent dark:border-neutral-700 dark:text-neutral-100"
-              >
-                {messages.home.email}
-              </a>
-            )}
-            {typeof social.orcid === 'string' && (
-              <a
-                href={social.orcid}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center rounded-full border border-neutral-300 px-4 py-2 text-sm font-medium text-primary transition-colors hover:border-accent hover:text-accent dark:border-neutral-700 dark:text-neutral-100"
-              >
-                ORCID
-              </a>
-            )}
+          {researchInterests.length > 0 && (
+            <div className="space-y-3">
+              <p className="text-sm font-medium uppercase tracking-[0.16em] text-neutral-500 dark:text-neutral-400">
+                {messages.home.currentThemes}
+              </p>
+              <div className="flex flex-wrap gap-2">
+              {researchInterests.map((interest) => (
+                <span
+                  key={interest}
+                  className="rounded-full border border-accent/20 bg-accent/8 px-3 py-1 text-sm text-neutral-700 dark:text-neutral-200"
+                >
+                  {interest}
+                </span>
+              ))}
+              </div>
+            </div>
+          )}
+
+          <div className="flex flex-wrap gap-3 pt-2">
+            <Link
+              href={withBasePath('/research')}
+              className="inline-flex items-center rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-primary-light"
+            >
+              {messages.home.viewResearch}
+            </Link>
+            <Link
+              href={withBasePath(typeof social.cv === 'string' ? social.cv : '/cv')}
+              className="inline-flex items-center rounded-full border border-neutral-300 px-5 py-2.5 text-sm font-medium text-primary transition-colors hover:border-accent hover:text-accent dark:border-neutral-700 dark:text-neutral-100"
+            >
+              {messages.home.viewCv}
+            </Link>
           </div>
         </div>
 
