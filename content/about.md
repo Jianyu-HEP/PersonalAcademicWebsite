@@ -1,6 +1,6 @@
 # About
 
-I am **Jianyu Zhang**, a Postdoctoral Fellow / Special Research Assistant at the University of Chinese Academy of Sciences, Beijing, China.
+I am **Jianyu Zhang**, currently an Assistant Professor at the National Centre for Nuclear Research (NCBJ), Poland (since December 2025), and a Postdoctoral Fellow / Special Research Assistant at the University of Chinese Academy of Sciences, Beijing, China.
 
 My research is in **experimental high-energy physics**, centered on hyperon physics and symmetry tests in the baryon sector. I work on precision measurements of hyperon decay parameters, CP-violation observables, and hyperon electric dipole moment sensitivity.
 

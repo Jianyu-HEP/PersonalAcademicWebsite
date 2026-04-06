@@ -6,8 +6,8 @@ last_updated = "2026年4月6日"
 
 [author]
 name = "张建宇"
-title = "博士后 / 特别研究助理"
-institution = "中国科学院大学，北京，中国"
+title = "助理教授（2025年12月起）/ 博士后"
+institution = "波兰国家核研究中心（NCBJ）"
 avatar = "/bio.jpg"
 
 [social]
@@ -31,12 +31,6 @@ title = "首页"
 type = "link"
 target = "home"
 href = "/"
-
-[[navigation]]
-title = "关于"
-type = "page"
-target = "about"
-href = "/about"
 
 [[navigation]]
 title = "研究"

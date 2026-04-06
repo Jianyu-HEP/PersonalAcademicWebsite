@@ -22,9 +22,3 @@ type = "publications"
 title = "代表论文"
 filter = "selected"
 limit = 5
-
-[[sections]]
-id = "news"
-type = "list"
-title = "动态"
-source = "news.toml"

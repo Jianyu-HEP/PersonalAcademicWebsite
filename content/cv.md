@@ -10,6 +10,10 @@
 
 ## Academic Appointments & Research Affiliations
 
+**Assistant Professor**  
+National Centre for Nuclear Research (NCBJ), Poland  
+*December 2025 - Present*
+
 **Postdoctoral Fellow / Special Research Assistant**  
 University of Chinese Academy of Sciences, Beijing, China  
 *2022 - Present*

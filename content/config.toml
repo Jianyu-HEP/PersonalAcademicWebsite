@@ -6,8 +6,8 @@ last_updated = "April 6, 2026"
 
 [author]
 name = "Jianyu Zhang"
-title = "Postdoctoral Fellow / Special Research Assistant"
-institution = "University of Chinese Academy of Sciences, Beijing, China"
+title = "Assistant Professor (since December 2025) / Postdoctoral Fellow"
+institution = "National Centre for Nuclear Research (NCBJ), Poland"
 avatar = "/bio.jpg"
 
 [social]
@@ -48,12 +48,6 @@ title = "Home"
 type = "link"
 target = "home"
 href = "/"
-
-[[navigation]]
-title = "About"
-type = "page"
-target = "about"
-href = "/about"
 
 [[navigation]]
 title = "Research"
