@@ -1,17 +1,38 @@
 type = "card"
 title = "报告"
-description = "部分学术报告、研讨会与会议发言。"
+description = "超子与粲物理方向的部分会议/研讨会报告。"
 
 [[items]]
-title = "报告题目占位"
-subtitle = "某研究所理论研讨会"
-date = "2026"
-content = "简要介绍报告所讨论的物理问题、方法以及主要结果。"
-tags = ["研讨会", "对撞机唯象学"]
+title = "CP violation tests of hyperon-antihyperon pairs at BESIII"
+subtitle = "International Conference on the Structure of Baryons, Andalusia, Spain"
+date = "2022"
+content = "报告 BESIII 中纠缠超子-反超子体系的 CP 破坏精密检验结果。"
+tags = ["会议报告", "超子", "CP 破坏"]
 
 [[items]]
-title = "会议报告占位"
-subtitle = "高能物理国际会议"
-date = "2025"
-content = "简述会议发言内容以及其与当前研究工作的联系。"
-tags = ["会议", "高能物理"]
+title = "Probe hyperon electric dipole moments at e+e- colliders"
+subtitle = "MESON 2023, Mainz, Germany"
+date = "2023"
+content = "介绍 e+e- 对撞机条件下超子 EDM 的角分析探测方法。"
+tags = ["会议报告", "EDM", "重子物理"]
+
+[[items]]
+title = "Searching for Hyperon Electric Dipole Moments at STCF"
+subtitle = "Future Tau Charm Facilities Workshop 2024, Guangzhou, China"
+date = "2024"
+content = "报告 STCF 条件下超子 EDM 搜索的灵敏度研究与实验前景。"
+tags = ["研讨会", "STCF", "EDM"]
+
+[[items]]
+title = "Experimental Program for Super Tau-Charm Facility"
+subtitle = "Hadron Spectroscopy and Hadron Structure 2024, Chengdu（邀请大会报告）"
+date = "2024"
+content = "受邀报告 STCF 在强子谱学与重子实验方向的整体研究计划。"
+tags = ["大会报告", "邀请报告", "STCF"]
+
+[[items]]
+title = "A novel method to search for CP violation with entangled hyperon-anti-hyperon production in J/psi decay"
+subtitle = "In Memory of Tsung-Dao Lee Meeting 2024, Shanghai（邀请报告）"
+date = "2024"
+content = "介绍基于 J/psi 衰变纠缠超子-反超子产生的新型 CP 破坏搜索方法。"
+tags = ["邀请报告", "CP 破坏", "BESIII"]

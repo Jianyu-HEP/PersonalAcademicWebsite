@@ -44,5 +44,6 @@ University of Chinese Academy of Sciences, Beijing, China
 ## Awards & Honors
 
 - **Outstanding PhD Thesis**, Institute of High Energy Physics — *2022*  
+- **Outstanding Individual in the Annual Assessment**, University of Chinese Academy of Sciences — *2022, 2023, 2024*  
 - **BESIII PhD Thesis Award** — *2022*  
 - **First Prize, 13th “Chenguang Cup” Young Outstanding Paper Award**, High Energy Physics Division of the Chinese Physical Society — *2024*
