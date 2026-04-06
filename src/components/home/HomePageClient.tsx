@@ -65,7 +65,6 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
   const homeSections = homePage?.type === 'about' ? homePage.sections : [];
   const aboutSection = homeSections.find((section) => section.type === 'markdown');
   const publicationsSection = homeSections.find((section) => section.type === 'publications');
-  const newsSection = homeSections.find((section) => section.type === 'list');
 
   return (
     <div className="min-h-screen bg-background">
@@ -76,34 +75,25 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
           researchInterests={data.researchInterests}
         />
 
-        <div className="grid gap-8 lg:grid-cols-[minmax(0,1.65fr)_minmax(19rem,1fr)]">
-          <div className="space-y-8">
-            {aboutSection?.type === 'markdown' && (
-              <About
-                content={aboutSection.content || ''}
-                title={aboutSection.title}
-              />
-            )}
+        <div className="mx-auto w-full max-w-4xl space-y-8">
+          {aboutSection?.type === 'markdown' && (
+            <About
+              content={aboutSection.content || ''}
+              title={aboutSection.title}
+            />
+          )}
 
-            {publicationsSection?.type === 'publications' && (
-              <SelectedPublications
-                publications={publicationsSection.publications || []}
-                title={publicationsSection.title}
-                enableOnePageMode={data.enableOnePageMode}
-              />
-            )}
-          </div>
+          <ResearchInterests interests={data.researchInterests || []} />
 
-          <div className="space-y-8">
-            <ResearchInterests interests={data.researchInterests || []} />
-            {newsSection?.type === 'list' && (
-              <News
-                items={newsSection.items || []}
-                title={newsSection.title}
-              />
-            )}
-            <QuickLinks social={data.social} />
-          </div>
+          {publicationsSection?.type === 'publications' && (
+            <SelectedPublications
+              publications={publicationsSection.publications || []}
+              title={publicationsSection.title}
+              enableOnePageMode={data.enableOnePageMode}
+            />
+          )}
+
+          <QuickLinks social={data.social} />
         </div>
 
         {extraPages.length > 0 && (

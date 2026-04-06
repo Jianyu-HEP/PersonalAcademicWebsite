@@ -44,12 +44,6 @@ zh = "中文"
 en = "English"
 
 [[navigation]]
-title = "Home"
-type = "link"
-target = "home"
-href = "/"
-
-[[navigation]]
 title = "Research"
 type = "page"
 target = "research"
@@ -66,24 +60,6 @@ title = "Talks"
 type = "page"
 target = "talks"
 href = "/talks"
-
-[[navigation]]
-title = "Teaching"
-type = "page"
-target = "teaching"
-href = "/teaching"
-
-[[navigation]]
-title = "Service"
-type = "page"
-target = "services"
-href = "/services"
-
-[[navigation]]
-title = "Awards"
-type = "page"
-target = "awards"
-href = "/awards"
 
 [[navigation]]
 title = "CV"

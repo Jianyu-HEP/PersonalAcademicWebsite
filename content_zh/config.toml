@@ -27,12 +27,6 @@ arxiv = "https://arxiv.org/a/REPLACE_ME.html"
 cv = "/cv"
 
 [[navigation]]
-title = "首页"
-type = "link"
-target = "home"
-href = "/"
-
-[[navigation]]
 title = "研究"
 type = "page"
 target = "research"
@@ -49,24 +43,6 @@ title = "报告"
 type = "page"
 target = "talks"
 href = "/talks"
-
-[[navigation]]
-title = "教学"
-type = "page"
-target = "teaching"
-href = "/teaching"
-
-[[navigation]]
-title = "服务"
-type = "page"
-target = "services"
-href = "/services"
-
-[[navigation]]
-title = "奖项"
-type = "page"
-target = "awards"
-href = "/awards"
 
 [[navigation]]
 title = "简历"
