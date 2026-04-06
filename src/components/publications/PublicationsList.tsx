@@ -30,6 +30,10 @@ export default function PublicationsList({ config, publications, embedded = fals
     const [showFilters, setShowFilters] = useState(false);
     const [expandedBibtexId, setExpandedBibtexId] = useState<string | null>(null);
     const [expandedAbstractId, setExpandedAbstractId] = useState<string | null>(null);
+    const selectedCount = useMemo(
+        () => publications.filter((pub) => pub.selected).length,
+        [publications]
+    );
 
     // Extract unique years and types for filters
     const years = useMemo(() => {
@@ -71,6 +75,21 @@ export default function PublicationsList({ config, publications, embedded = fals
                         {config.description}
                     </p>
                 )}
+            </div>
+
+            <div className="mb-8 grid gap-3 sm:grid-cols-3">
+                <div className="rounded-2xl border border-neutral-200 bg-neutral-50 px-4 py-3 dark:border-neutral-800 dark:bg-neutral-900">
+                    <div className="text-xs uppercase tracking-[0.16em] text-neutral-500 dark:text-neutral-400">Total</div>
+                    <div className="mt-1 text-xl font-semibold text-primary">{publications.length}</div>
+                </div>
+                <div className="rounded-2xl border border-neutral-200 bg-neutral-50 px-4 py-3 dark:border-neutral-800 dark:bg-neutral-900">
+                    <div className="text-xs uppercase tracking-[0.16em] text-neutral-500 dark:text-neutral-400">Selected</div>
+                    <div className="mt-1 text-xl font-semibold text-primary">{selectedCount}</div>
+                </div>
+                <div className="rounded-2xl border border-neutral-200 bg-neutral-50 px-4 py-3 dark:border-neutral-800 dark:bg-neutral-900">
+                    <div className="text-xs uppercase tracking-[0.16em] text-neutral-500 dark:text-neutral-400">Filtered</div>
+                    <div className="mt-1 text-xl font-semibold text-primary">{filteredPublications.length}</div>
+                </div>
             </div>
 
             {/* Search and Filter Controls */}

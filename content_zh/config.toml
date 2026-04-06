@@ -1,31 +1,30 @@
 [site]
-title = "刘嘉乐"
-description = "高能物理研究个人主页。"
-last_updated = "2026年4月5日"
+title = "张建宇"
+description = "张建宇个人学术主页：实验高能物理、超子物理、CP破坏、超子电偶极矩与超子-核子相互作用。"
+favicon = "/favicon.svg"
+last_updated = "2026年4月6日"
 
 [author]
-name = "刘嘉乐"
-title = "高能物理博士生"
-institution = "某某大学"
+name = "张建宇"
+title = "助理教授（2025年12月起）/ 博士后"
+institution = "波兰国家核研究中心（NCBJ）"
+avatar = "/bio.jpg"
 
 [social]
-location = "城市，国家"
+email = "jianyu.zhang@cern.ch"
+location = "北京，中国"
+location_url = "https://maps.google.com/?q=University+of+Chinese+Academy+of+Sciences+Beijing"
 location_details = [
-  "理科楼 123 室，",
-  "大学路，城市，国家"
+  "中国科学院大学，",
+  "北京，中国"
 ]
-
-[[navigation]]
-title = "首页"
-type = "link"
-target = "home"
-href = "/"
-
-[[navigation]]
-title = "关于"
-type = "page"
-target = "about"
-href = "/about"
+google_scholar = "https://scholar.google.com/citations?user=REPLACE_ME"
+orcid = "https://orcid.org/0000-0001-6010-8556"
+github = "https://github.com/REPLACE_ME"
+linkedin = "https://www.linkedin.com/in/REPLACE_ME"
+inspire = "https://inspirehep.net/authors/REPLACE_ME"
+arxiv = "https://arxiv.org/a/REPLACE_ME.html"
+cv = "/cv"
 
 [[navigation]]
 title = "研究"
@@ -44,12 +43,6 @@ title = "报告"
 type = "page"
 target = "talks"
 href = "/talks"
-
-[[navigation]]
-title = "教学"
-type = "page"
-target = "teaching"
-href = "/teaching"
 
 [[navigation]]
 title = "简历"
