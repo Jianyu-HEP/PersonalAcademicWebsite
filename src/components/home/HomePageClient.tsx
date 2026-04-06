@@ -3,7 +3,6 @@
 import Hero from '@/components/home/Hero';
 import About from '@/components/home/About';
 import QuickLinks from '@/components/home/QuickLinks';
-import ResearchInterests from '@/components/home/ResearchInterests';
 import SelectedPublications from '@/components/home/SelectedPublications';
 import News, { NewsItem } from '@/components/home/News';
 import PublicationsList from '@/components/publications/PublicationsList';
@@ -65,45 +64,36 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
   const homeSections = homePage?.type === 'about' ? homePage.sections : [];
   const aboutSection = homeSections.find((section) => section.type === 'markdown');
   const publicationsSection = homeSections.find((section) => section.type === 'publications');
-  const newsSection = homeSections.find((section) => section.type === 'list');
 
   return (
     <div className="min-h-screen bg-background">
-      <div className="mx-auto flex max-w-6xl flex-col gap-8 px-4 py-8 sm:px-6 lg:px-8 lg:py-10">
+      <div className="mx-auto flex max-w-5xl flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8 lg:py-10">
         <Hero
           author={data.author}
           social={data.social}
-          researchInterests={data.researchInterests}
         />
 
-        <div className="grid gap-8 lg:grid-cols-[minmax(0,1.65fr)_minmax(19rem,1fr)]">
-          <div className="space-y-8">
-            {aboutSection?.type === 'markdown' && (
+        <div className="mx-auto w-full max-w-4xl space-y-6">
+          {aboutSection?.type === 'markdown' && (
+            <section id="about">
               <About
                 content={aboutSection.content || ''}
                 title={aboutSection.title}
               />
-            )}
+            </section>
+          )}
 
-            {publicationsSection?.type === 'publications' && (
+          {publicationsSection?.type === 'publications' && (
+            <section id="selected-publications">
               <SelectedPublications
                 publications={publicationsSection.publications || []}
                 title={publicationsSection.title}
                 enableOnePageMode={data.enableOnePageMode}
               />
-            )}
-          </div>
+            </section>
+          )}
 
-          <div className="space-y-8">
-            <ResearchInterests interests={data.researchInterests || []} />
-            {newsSection?.type === 'list' && (
-              <News
-                items={newsSection.items || []}
-                title={newsSection.title}
-              />
-            )}
-            <QuickLinks social={data.social} />
-          </div>
+          <QuickLinks social={data.social} />
         </div>
 
         {extraPages.length > 0 && (
