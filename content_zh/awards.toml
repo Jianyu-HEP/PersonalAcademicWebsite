@@ -1,27 +1,27 @@
 type = "card"
 title = "奖项"
-description = "我获得的荣誉与奖项。"
+description = "主要学术荣誉与奖励。"
 
 [[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
-date = "2025"
-content = "奖项说明。"
-
-[[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
-date = "2024"
-content = "奖项说明。"
-
-[[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
-date = "2023"
-content = "奖项说明。"
-
-[[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
+title = "优秀博士论文"
+subtitle = "中国科学院高能物理研究所"
 date = "2022"
-content = "奖项说明。"
+content = "博士论文工作获得研究所优秀博士论文荣誉。"
+
+[[items]]
+title = "年度考核优秀个人"
+subtitle = "中国科学院大学"
+date = "2022, 2023, 2024"
+content = "连续多年在年度考核中获评优秀个人。"
+
+[[items]]
+title = "BESIII 博士论文奖"
+subtitle = "BESIII 合作组"
+date = "2022"
+content = "因博士论文相关工作获 BESIII 博士论文奖。"
+
+[[items]]
+title = "第十三届“晨光杯”青年优秀论文奖一等奖"
+subtitle = "中国物理学会高能物理分会"
+date = "2024"
+content = "获青年优秀论文奖一等奖。"
