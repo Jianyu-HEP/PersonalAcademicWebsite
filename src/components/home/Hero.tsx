@@ -1,6 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import type { SiteConfig } from '@/lib/config';
@@ -25,17 +24,12 @@ export default function Hero({ author, social, researchInterests = [] }: HeroCom
   });
 
   return (
-    <motion.section
-      initial={{ opacity: 0, y: 18 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5 }}
-      className="relative overflow-hidden rounded-[1.75rem] border border-neutral-200/80 bg-white px-6 py-7 shadow-sm sm:px-8 sm:py-8 dark:border-neutral-800 dark:bg-neutral-950"
-    >
-      <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-accent/50 to-transparent" />
-      <div className="grid gap-7 lg:grid-cols-[minmax(0,1.75fr)_15rem] lg:items-center">
-        <div className="space-y-4">
-          <div className="space-y-2.5">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-accent">
+    <section className="relative overflow-hidden rounded-[2rem] border border-neutral-200/80 bg-gradient-to-br from-white via-neutral-50 to-stone-100 px-6 py-8 shadow-sm sm:px-8 lg:px-10 dark:border-neutral-800 dark:from-neutral-950 dark:via-neutral-950 dark:to-neutral-900">
+      <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-accent/70 to-transparent" />
+      <div className="grid gap-8 lg:grid-cols-[minmax(0,1.8fr)_18rem] lg:items-center">
+        <div className="space-y-5">
+          <div className="space-y-3">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-accent">
               {messages.home.heroLabel}
             </p>
             <h1 className="text-4xl font-serif font-bold tracking-tight text-primary sm:text-[2.8rem]">
@@ -51,6 +45,9 @@ export default function Hero({ author, social, researchInterests = [] }: HeroCom
               <p className="max-w-3xl text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
                 <span className="font-medium text-neutral-700 dark:text-neutral-300">{messages.home.researchInterests}: </span>
                 {conciseInterests.join(' · ')}
+              </p>
+              <p className="text-sm leading-6 text-neutral-600 dark:text-neutral-400">
+                {messages.home.heroResearchStatement}
               </p>
               <p className="text-sm leading-6 text-neutral-600 dark:text-neutral-400">
                 {messages.home.heroResearchStatement}
@@ -108,6 +105,6 @@ export default function Hero({ author, social, researchInterests = [] }: HeroCom
           </div>
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 }
