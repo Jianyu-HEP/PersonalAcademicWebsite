@@ -10,7 +10,6 @@ import { withBasePath } from '@/lib/utils';
 interface HeroProps {
   author: SiteConfig['author'];
   social: SiteConfig['social'];
-  researchInterests?: string[];
 }
 
 export default function Hero({ author, social, researchInterests = [] }: HeroProps) {

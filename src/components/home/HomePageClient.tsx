@@ -71,7 +71,6 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
         <Hero
           author={data.author}
           social={data.social}
-          researchInterests={data.researchInterests}
         />
 
         <div className="mx-auto w-full max-w-4xl space-y-6">
