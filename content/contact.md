@@ -1,11 +1,11 @@
 # Contact
 
-The most reliable way to reach me is by email.
+The quickest way to reach me is by email.
 
-- Email: [name@institution.edu](mailto:name@institution.edu)
-- Google Scholar: [Profile](https://scholar.google.com/citations?user=REPLACE_ME)
-- INSPIRE: [Profile](https://inspirehep.net/authors/REPLACE_ME)
-- arXiv: [Author Page](https://arxiv.org/a/REPLACE_ME.html)
-- ORCID: [Profile](https://orcid.org/0000-0000-0000-0000)
+- Email: [[PLACEHOLDER: your.email@institution.edu]](mailto:[PLACEHOLDER: your.email@institution.edu])
+- Google Scholar: [[PLACEHOLDER: Profile]](https://scholar.google.com/citations?user=[PLACEHOLDER])
+- INSPIRE: [[PLACEHOLDER: Profile]](https://inspirehep.net/authors/[PLACEHOLDER])
+- arXiv: [[PLACEHOLDER: Author page]](https://arxiv.org/a/[PLACEHOLDER].html)
+- ORCID: [[PLACEHOLDER: Profile]](https://orcid.org/[PLACEHOLDER])
 
-If you are writing about collaboration opportunities, seminar invitations, or student supervision, please include a concise subject line.
+If you are writing about a research collaboration, seminar invitation, or teaching-related matter, please include a short subject line so I can respond efficiently.

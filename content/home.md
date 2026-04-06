@@ -1,5 +1,5 @@
-I am a PhD researcher in **high-energy physics** working at the boundary of precision theory and collider phenomenology.
-My research program focuses on extracting reliable particle-physics constraints from LHC data by combining perturbative calculations, effective field theory methods, and statistically robust analysis workflows.
+I am a researcher in **high-energy physics (HEP)** working on the interface between precision theory and collider data analysis. My current work focuses on turning quantum field theory calculations into experimentally testable predictions for hadron-collider observables.
 
-This homepage highlights the central themes of my work, selected publications, and recent academic updates.
-It is designed as a concise research-facing profile rather than a portfolio page, with temporary placeholders reserved only where personal details are still to be finalized.
+My long-term goal is to improve how we extract fundamental physics from increasingly precise measurements, including constraints on physics beyond the Standard Model.
+
+This website provides a concise overview of my research program, selected publications, talks, teaching, and professional links. Items marked with **[PLACEHOLDER]** are intended to be replaced with your final personal details.

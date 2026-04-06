@@ -1,15 +1,15 @@
 # About
 
-I am a PhD researcher in high-energy physics with primary interests in **collider phenomenology**, **effective field theory**, and **precision Standard Model tests**.
+I am a PhD researcher in high-energy physics with a focus on **collider phenomenology**, **effective field theory**, and **precision tests of the Standard Model**.
 
-My work emphasizes quantitative interfaces between theory and experiment, particularly in regimes where perturbative QCD, electroweak effects, and experimental systematics all need to be handled consistently.
+My work aims to build quantitative bridges between theory and experiment, especially for observables where perturbative QCD, electroweak effects, and realistic detector-facing analysis choices all matter simultaneously.
 
-I focus on three connected goals:
+I am particularly interested in:
 
-1. developing precision-ready collider observables with transparent theory uncertainties;
-2. translating measurements into model-independent constraints using EFT frameworks;
-3. building reproducible analysis pipelines that support long-term interpretability of HEP results.
+- precision collider observables and uncertainty quantification,
+- model-independent BSM interpretations using EFT frameworks,
+- robust and reproducible analysis pipelines for HEP data.
 
-Before my current position, I received training in theoretical and computational physics and developed a sustained interest in connecting formal methods to experimentally testable questions.
+Before my current position, I received training in theoretical and computational physics and developed a strong interest in the conceptual foundations of particle physics.
 
-Institutional details (group name, advisor list, office location, and finalized timeline entries) are intentionally kept as placeholders and can be updated directly in the content files.
+Institutional details, advisor names, and timeline entries are currently marked as **[PLACEHOLDER]** where needed and can be updated directly in the content files.

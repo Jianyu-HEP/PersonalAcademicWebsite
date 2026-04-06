@@ -1,27 +1,21 @@
 type = "card"
 title = "Research"
-description = "Core research directions at the interface of precision theory and collider data."
+description = "Current research themes in high energy physics."
 
 [[items]]
-title = "Precision Collider Phenomenology"
-subtitle = "Run-3 observables, HL-LHC projections, and interpretation strategy"
-content = "I develop phenomenological frameworks that map differential collider measurements onto well-defined theory parameters, with attention to perturbative stability, scale variation, and data-driven validation."
-tags = ["LHC", "Phenomenology", "Precision"]
+title = "Collider Phenomenology"
+subtitle = "LHC observables, signatures, and interpretation frameworks"
+content = "Developing phenomenological tools to map precision and high-pT measurements onto theory parameters, with emphasis on robust uncertainty treatment and interpretation-ready observables."
+tags = ["LHC", "Phenomenology", "SMEFT"]
 
 [[items]]
-title = "EFT and BSM Interpretation"
-subtitle = "Model-independent constraints from global and differential fits"
-content = "A central objective is to convert precision measurements into robust EFT constraints, clarifying where current data already restrict new physics and where future sensitivity is expected to improve."
-tags = ["SMEFT", "BSM", "Global Fits"]
+title = "Precision Quantum Field Theory for Collider Physics"
+subtitle = "Perturbative calculations and theory systematics"
+content = "Work on precision QCD/EW calculations, scale-variation systematics, and matching strategies that improve direct comparison between theoretical predictions and experimental analyses."
+tags = ["QCD", "Electroweak", "Precision"]
 
 [[items]]
-title = "Theory-Systematics and Inference Workflows"
-subtitle = "QCD/EW uncertainties, likelihood design, and reproducibility"
-content = "I work on reproducible inference pipelines that propagate theory and experimental uncertainties consistently, making interpretation across analyses and datasets more transparent and durable."
-tags = ["QCD", "Electroweak", "Inference"]
-
-[[items]]
-title = "Computational Infrastructure for HEP Analyses"
-subtitle = "From symbolic inputs to analysis-ready predictions"
-content = "I maintain computational workflows that connect theory calculations, fast surrogate evaluations, and publication-grade outputs to support collaborative phenomenology projects."
-tags = ["Computation", "Reproducibility", "HEP Tools"]
+title = "Inference and Analysis Methods in HEP"
+subtitle = "Statistical interpretation and computational workflows"
+content = "Designing statistically robust and computationally efficient analysis pipelines for extracting physics constraints from complex collider datasets, including EFT parameter inference."
+tags = ["Statistics", "Inference", "HEP Data"]

@@ -3,10 +3,10 @@ title = "Home"
 
 [profile]
 research_interests = [
-  "Precision collider phenomenology for LHC Run-3 and HL-LHC",
-  "Effective field theory constraints from differential measurements",
-  "QCD and electroweak theory systematics for high-pT observables",
-  "Statistical inference pipelines for reproducible HEP analyses"
+  "Collider phenomenology at the LHC and future hadron colliders",
+  "Effective field theory and precision Standard Model predictions",
+  "Physics beyond the Standard Model in high-energy signatures",
+  "Jet substructure, precision QCD, and data-driven inference"
 ]
 
 [[sections]]

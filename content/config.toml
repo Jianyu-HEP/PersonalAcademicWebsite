@@ -7,23 +7,23 @@ last_updated = "April 5, 2026"
 [author]
 name = "Jiale Liu"
 title = "PhD Student in High-Energy Physics"
-institution = "Department of Physics, [University Name]"
+institution = "[PLACEHOLDER: University / Institute]"
 avatar = "/bio.jpg"
 
 [social]
-email = "name@institution.edu"
-location = "[City], [Country]"
+email = "[PLACEHOLDER: your.email@institution.edu]"
+location = "[PLACEHOLDER: City, Country]"
 location_url = "https://maps.google.com/?q=[PLACEHOLDER]"
 location_details = [
-  "[Office / Building],",
-  "[Department / Campus], [City], [Country]"
+  "[PLACEHOLDER: Office / Building],",
+  "[PLACEHOLDER: Street / Campus, City, Country]"
 ]
-google_scholar = "https://scholar.google.com/citations?user=REPLACE_ME"
-orcid = "https://orcid.org/0000-0000-0000-0000"
-github = "https://github.com/REPLACE_ME"
-linkedin = "https://www.linkedin.com/in/REPLACE_ME"
-inspire = "https://inspirehep.net/authors/REPLACE_ME"
-arxiv = "https://arxiv.org/a/REPLACE_ME.html"
+google_scholar = "https://scholar.google.com/citations?user=[PLACEHOLDER]"
+orcid = "https://orcid.org/[PLACEHOLDER]"
+github = "https://github.com/[PLACEHOLDER]"
+linkedin = "https://www.linkedin.com/in/[PLACEHOLDER]"
+inspire = "https://inspirehep.net/authors/[PLACEHOLDER]"
+arxiv = "https://arxiv.org/a/[PLACEHOLDER].html"
 cv = "/cv"
 
 [features]
