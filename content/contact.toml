@@ -1,0 +1,4 @@
+type = "text"
+title = "Contact"
+description = "Professional contact details and external research profiles."
+source = "contact.md"

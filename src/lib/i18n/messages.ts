@@ -27,10 +27,21 @@ export interface LocaleMessages {
     thanks: string;
   };
   home: {
+    currentThemes: string;
+    heroLabel: string;
     about: string;
+    aboutDescription: string;
     news: string;
+    newsDescription: string;
+    quickLinks: string;
+    quickLinksDescription: string;
+    researchInterests: string;
+    researchInterestsDescription: string;
     selectedPublications: string;
+    selectedPublicationsDescription: string;
+    viewCv: string;
     viewAll: string;
+    viewResearch: string;
   };
   publications: {
     searchPlaceholder: string;
@@ -77,10 +88,21 @@ const en: LocaleMessages = {
     thanks: 'Thanks!',
   },
   home: {
+    currentThemes: 'Current themes',
+    heroLabel: 'High Energy Physics',
     about: 'About',
+    aboutDescription: 'Short academic overview and current research context.',
     news: 'News',
+    newsDescription: 'Recent milestones, papers, presentations, and academic updates.',
+    quickLinks: 'Quick Links',
+    quickLinksDescription: 'Academic profiles, CV, and direct contact.',
+    researchInterests: 'Research Interests',
+    researchInterestsDescription: 'A concise overview of the themes that structure the broader research program.',
     selectedPublications: 'Selected Publications',
+    selectedPublicationsDescription: 'Selected papers highlighted from the full BibTeX-backed publication list.',
+    viewCv: 'View CV',
     viewAll: 'View All',
+    viewResearch: 'View Research',
   },
   publications: {
     searchPlaceholder: 'Search publications...',
@@ -127,10 +149,21 @@ const zh: LocaleMessages = {
     thanks: '感谢支持！',
   },
   home: {
+    currentThemes: '当前主题',
+    heroLabel: '高能物理',
     about: '关于我',
+    aboutDescription: '简要介绍学术背景与当前研究方向。',
     news: '动态',
+    newsDescription: '近期论文、报告与学术进展更新。',
+    quickLinks: '快速链接',
+    quickLinksDescription: '学术主页、简历与直接联系方式。',
+    researchInterests: '研究兴趣',
+    researchInterestsDescription: '概括当前研究计划所围绕的核心主题。',
     selectedPublications: '精选论文',
+    selectedPublicationsDescription: '从完整 BibTeX 论文列表中选出的代表性工作。',
+    viewCv: '查看简历',
     viewAll: '查看全部',
+    viewResearch: '查看研究',
   },
   publications: {
     searchPlaceholder: '搜索论文...',

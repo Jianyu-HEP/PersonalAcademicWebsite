@@ -65,8 +65,8 @@ function loadPageDataForLocale(locale: string | undefined): HomePageLocaleData {
   const localeConfig = getConfig(locale);
   const enableOnePageMode = localeConfig.features.enable_one_page_mode;
 
-  const aboutConfig = getPageConfig<{ profile?: { research_interests?: string[] }; sections?: SectionConfig[] }>('about', locale);
-  const researchInterests = aboutConfig?.profile?.research_interests;
+  const homeConfig = getPageConfig<{ profile?: { research_interests?: string[] }; sections?: SectionConfig[] }>('home', locale);
+  const researchInterests = homeConfig?.profile?.research_interests;
 
   let pagesToShow: PageData[] = [];
 
@@ -119,11 +119,11 @@ function loadPageDataForLocale(locale: string | undefined): HomePageLocaleData {
         return null;
       })
       .filter((item): item is PageData => item !== null);
-  } else if (aboutConfig) {
+  } else if (homeConfig) {
     pagesToShow = [{
       type: 'about',
-      id: 'about',
-      sections: processSections(aboutConfig.sections || [], locale),
+      id: 'home',
+      sections: processSections(homeConfig.sections || [], locale),
     }];
   }
 

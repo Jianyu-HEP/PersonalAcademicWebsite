@@ -1,0 +1,17 @@
+type = "card"
+title = "报告"
+description = "部分学术报告、研讨会与会议发言。"
+
+[[items]]
+title = "报告题目占位"
+subtitle = "某研究所理论研讨会"
+date = "2026"
+content = "简要介绍报告所讨论的物理问题、方法以及主要结果。"
+tags = ["研讨会", "对撞机唯象学"]
+
+[[items]]
+title = "会议报告占位"
+subtitle = "高能物理国际会议"
+date = "2025"
+content = "简述会议发言内容以及其与当前研究工作的联系。"
+tags = ["会议", "高能物理"]

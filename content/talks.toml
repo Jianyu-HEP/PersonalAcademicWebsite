@@ -1,0 +1,17 @@
+type = "card"
+title = "Talks"
+description = "Selected talks, seminars, and conference presentations."
+
+[[items]]
+title = "Seminar Title Placeholder"
+subtitle = "Theory Seminar, Example Institute"
+date = "2026"
+content = "Summary of the talk topic, emphasizing the physics question, method, and main result."
+tags = ["Seminar", "Collider Phenomenology"]
+
+[[items]]
+title = "Conference Talk Placeholder"
+subtitle = "International Conference on High Energy Physics"
+date = "2025"
+content = "Short description of the conference presentation and its connection to ongoing research."
+tags = ["Conference", "HEP"]

@@ -1,11 +1,11 @@
 [site]
 title = "刘嘉乐"
-description = "某某大学博士生个人主页。"
-last_updated = "2025年11月18日"
+description = "高能物理研究个人主页。"
+last_updated = "2026年4月5日"
 
 [author]
 name = "刘嘉乐"
-title = "博士生"
+title = "高能物理博士生"
 institution = "某某大学"
 
 [social]
@@ -16,10 +16,22 @@ location_details = [
 ]
 
 [[navigation]]
-title = "关于我"
+title = "首页"
+type = "link"
+target = "home"
+href = "/"
+
+[[navigation]]
+title = "关于"
 type = "page"
 target = "about"
-href = "/"
+href = "/about"
+
+[[navigation]]
+title = "研究"
+type = "page"
+target = "research"
+href = "/research"
 
 [[navigation]]
 title = "论文"
@@ -28,25 +40,25 @@ target = "publications"
 href = "/publications"
 
 [[navigation]]
+title = "报告"
+type = "page"
+target = "talks"
+href = "/talks"
+
+[[navigation]]
 title = "教学"
 type = "page"
 target = "teaching"
 href = "/teaching"
 
 [[navigation]]
-title = "奖项"
-type = "page"
-target = "awards"
-href = "/awards"
-
-[[navigation]]
-title = "服务"
-type = "page"
-target = "services"
-href = "/services"
-
-[[navigation]]
 title = "简历"
 type = "page"
 target = "cv"
 href = "/cv"
+
+[[navigation]]
+title = "联系"
+type = "page"
+target = "contact"
+href = "/contact"

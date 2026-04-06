@@ -20,13 +20,19 @@ export default function SelectedPublications({ publications, title, enableOnePag
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
+            className="rounded-[1.5rem] border border-neutral-200 bg-white p-6 shadow-sm dark:border-neutral-800 dark:bg-neutral-950"
         >
-            <div className="flex items-center justify-between mb-4">
-                <h2 className="text-2xl font-serif font-bold text-primary">{resolvedTitle}</h2>
+            <div className="mb-5 flex items-center justify-between gap-4">
+                <div>
+                    <h2 className="text-2xl font-serif font-bold text-primary">{resolvedTitle}</h2>
+                    <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
+                        {messages.home.selectedPublicationsDescription}
+                    </p>
+                </div>
                 <Link
                     href={enableOnePageMode ? "/#publications" : "/publications"}
                     prefetch={true}
-                    className="text-accent hover:text-accent-dark text-sm font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm"
+                    className="shrink-0 text-sm font-medium text-accent transition-colors hover:text-accent-dark"
                 >
                     {messages.home.viewAll} →
                 </Link>
@@ -38,12 +44,12 @@ export default function SelectedPublications({ publications, title, enableOnePag
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.4, delay: 0.1 * index }}
-                        className="bg-neutral-50 dark:bg-neutral-800 p-4 rounded-lg shadow-sm border border-neutral-200 dark:border-[rgba(148,163,184,0.24)] hover:shadow-lg transition-all duration-200 hover:scale-[1.02]"
+                        className="rounded-2xl border border-neutral-200 bg-neutral-50 p-5 transition-shadow hover:shadow-md dark:border-neutral-800 dark:bg-neutral-900"
                     >
-                        <h3 className="font-semibold text-primary mb-2 leading-tight">
+                        <h3 className="mb-2 text-base font-semibold leading-tight text-primary sm:text-lg">
                             {pub.title}
                         </h3>
-                        <p className="text-sm text-neutral-600 dark:text-neutral-500 mb-1">
+                        <p className="mb-2 text-sm leading-6 text-neutral-700 dark:text-neutral-300">
                             {pub.authors.map((author, idx) => (
                                 <span key={idx}>
                                     <span className={`${author.isHighlighted ? 'font-semibold text-accent' : ''} ${author.isCoAuthor ? `underline underline-offset-4 ${author.isHighlighted ? 'decoration-accent' : 'decoration-neutral-400'}` : ''}`}>
@@ -56,11 +62,11 @@ export default function SelectedPublications({ publications, title, enableOnePag
                                 </span>
                             ))}
                         </p>
-                        <p className="text-sm text-neutral-600 dark:text-neutral-500 mb-2">
-                            {pub.journal || pub.conference}
+                        <p className="mb-3 text-sm font-medium text-neutral-500 dark:text-neutral-400">
+                            {[pub.journal || pub.conference, pub.year].filter(Boolean).join(' • ')}
                         </p>
                         {pub.description && (
-                            <p className="text-sm text-neutral-500 dark:text-neutral-500 line-clamp-2">
+                            <p className="line-clamp-3 text-sm leading-6 text-neutral-600 dark:text-neutral-400">
                                 {pub.description}
                             </p>
                         )}

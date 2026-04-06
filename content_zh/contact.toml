@@ -1,0 +1,4 @@
+type = "text"
+title = "联系"
+description = "学术联系信息与常用科研主页入口。"
+source = "contact.md"

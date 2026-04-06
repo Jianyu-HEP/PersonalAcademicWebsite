@@ -1,0 +1,28 @@
+type = "about"
+title = "Home"
+
+[profile]
+research_interests = [
+  "Collider phenomenology",
+  "Physics beyond the Standard Model",
+  "Jet physics and precision QCD"
+]
+
+[[sections]]
+id = "home_about"
+type = "markdown"
+source = "home.md"
+title = "Short About"
+
+[[sections]]
+id = "featured_publications"
+type = "publications"
+title = "Selected Publications"
+filter = "selected"
+limit = 5
+
+[[sections]]
+id = "news"
+type = "list"
+title = "News"
+source = "news.toml"

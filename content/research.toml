@@ -1,0 +1,21 @@
+type = "card"
+title = "Research"
+description = "Current research themes in high energy physics."
+
+[[items]]
+title = "Collider Phenomenology"
+subtitle = "LHC observables, signatures, and interpretation"
+content = "Research on observables and search strategies that connect theoretical predictions to current and future collider measurements."
+tags = ["LHC", "Phenomenology", "BSM"]
+
+[[items]]
+title = "Precision Quantum Field Theory"
+subtitle = "Perturbative calculations and theory systematics"
+content = "Work on precision calculations, uncertainty estimates, and tools that improve the comparison between theory and experiment."
+tags = ["QCD", "EFT", "Precision"]
+
+[[items]]
+title = "Data-Driven Analysis in HEP"
+subtitle = "Inference and modern analysis methods"
+content = "Exploration of statistically robust and computationally efficient methods for extracting physics from complex collider data."
+tags = ["Statistics", "Inference", "Analysis"]

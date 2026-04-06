@@ -1,7 +1,9 @@
 'use client';
 
-import Profile from '@/components/home/Profile';
+import Hero from '@/components/home/Hero';
 import About from '@/components/home/About';
+import QuickLinks from '@/components/home/QuickLinks';
+import ResearchInterests from '@/components/home/ResearchInterests';
 import SelectedPublications from '@/components/home/SelectedPublications';
 import News, { NewsItem } from '@/components/home/News';
 import PublicationsList from '@/components/publications/PublicationsList';
@@ -53,20 +55,60 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
     return null;
   }
 
+  const homePage = data.pagesToShow.find(
+    (page) => page.type === 'about' && (page.id === 'home' || page.id === 'about')
+  );
+  const extraPages = data.enableOnePageMode
+    ? data.pagesToShow.filter((page) => page !== homePage)
+    : [];
+
+  const homeSections = homePage?.type === 'about' ? homePage.sections : [];
+  const aboutSection = homeSections.find((section) => section.type === 'markdown');
+  const publicationsSection = homeSections.find((section) => section.type === 'publications');
+  const newsSection = homeSections.find((section) => section.type === 'list');
+
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-background min-h-screen">
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-        <div className="lg:col-span-1">
-          <Profile
-            author={data.author}
-            social={data.social}
-            features={data.features}
-            researchInterests={data.researchInterests}
-          />
+    <div className="min-h-screen bg-background">
+      <div className="mx-auto flex max-w-6xl flex-col gap-8 px-4 py-8 sm:px-6 lg:px-8 lg:py-10">
+        <Hero
+          author={data.author}
+          social={data.social}
+          researchInterests={data.researchInterests}
+        />
+
+        <div className="grid gap-8 lg:grid-cols-[minmax(0,1.65fr)_minmax(19rem,1fr)]">
+          <div className="space-y-8">
+            {aboutSection?.type === 'markdown' && (
+              <About
+                content={aboutSection.content || ''}
+                title={aboutSection.title}
+              />
+            )}
+
+            {publicationsSection?.type === 'publications' && (
+              <SelectedPublications
+                publications={publicationsSection.publications || []}
+                title={publicationsSection.title}
+                enableOnePageMode={data.enableOnePageMode}
+              />
+            )}
+          </div>
+
+          <div className="space-y-8">
+            <ResearchInterests interests={data.researchInterests || []} />
+            {newsSection?.type === 'list' && (
+              <News
+                items={newsSection.items || []}
+                title={newsSection.title}
+              />
+            )}
+            <QuickLinks social={data.social} />
+          </div>
         </div>
 
-        <div className="lg:col-span-2 space-y-8">
-          {data.pagesToShow.map((page) => (
+        {extraPages.length > 0 && (
+          <div className="space-y-10 pt-4">
+            {extraPages.map((page) => (
             <section key={page.id} id={page.id} className="scroll-mt-24 space-y-8">
               {page.type === 'about' && page.sections.map((section: SectionConfig) => {
                 switch (section.type) {
@@ -120,8 +162,9 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
                 />
               )}
             </section>
-          ))}
-        </div>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

@@ -1,18 +1,16 @@
 [site]
 title = "Jiale Liu"
-description = "PhD student at the University of Example."
+description = "High energy physics research homepage."
 favicon = "/favicon.svg"
-last_updated = "November 18, 2025"
+last_updated = "April 5, 2026"
 
 [author]
 name = "Jiale Liu"
-title = "PhD Student"
+title = "PhD Student in High Energy Physics"
 institution = "University of Example"
 avatar = "/bio.jpg"
 
 [social]
-# Contact information (leave blank or delete to hide)
-
 email = "john.doe@example.com"
 location = "City, Country"
 location_url = "https://maps.google.com"
@@ -24,24 +22,21 @@ google_scholar = "https://scholar.google.com"
 orcid = "https://orcid.org"
 github = "https://github.com"
 linkedin = "https://linkedin.com"
+inspire = "https://inspirehep.net"
+arxiv = "https://arxiv.org"
+cv = "/cv"
 
 [features]
-# Show a like button on the about page
 enable_likes = true
-
-# Display all subpages on a single page
 enable_one_page_mode = false
 
 [i18n]
 enabled = true
 locales = ["zh", "en"]
 default_locale = "en"
-# "auto" means the locale will be determined by the browser's language setting, "fixed" means the locale will be fixed to the default locale (but can be switched still, if you want to disable, set "enable=false")
 mode = "auto"
 fixed_locale = "en"
-# If true, PRISM will remember user's language preference in browser's localStorage
 persist = true
-# Show a language switcher on the top right corner
 switcher = true
 
 [i18n.labels]
@@ -49,10 +44,22 @@ zh = "中文"
 en = "English"
 
 [[navigation]]
+title = "Home"
+type = "link"
+target = "home"
+href = "/"
+
+[[navigation]]
 title = "About"
 type = "page"
 target = "about"
-href = "/"
+href = "/about"
+
+[[navigation]]
+title = "Research"
+type = "page"
+target = "research"
+href = "/research"
 
 [[navigation]]
 title = "Publications"
@@ -61,25 +68,25 @@ target = "publications"
 href = "/publications"
 
 [[navigation]]
+title = "Talks"
+type = "page"
+target = "talks"
+href = "/talks"
+
+[[navigation]]
 title = "Teaching"
 type = "page"
 target = "teaching"
 href = "/teaching"
 
 [[navigation]]
-title = "Awards"
-type = "page"
-target = "awards"
-href = "/awards"
-
-[[navigation]]
-title = "Services"
-type = "page"
-target = "services"
-href = "/services"
-
-[[navigation]]
 title = "CV"
 type = "page"
 target = "cv"
 href = "/cv"
+
+[[navigation]]
+title = "Contact"
+type = "page"
+target = "contact"
+href = "/contact"

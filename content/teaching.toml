@@ -1,10 +1,17 @@
 type = "card"
 title = "Teaching"
-description = "Courses I have taught or assisted with."
+description = "Teaching experience in physics and related quantitative courses."
 
 [[items]]
-title = "Example Course"
+title = "Quantum Mechanics"
+subtitle = "Teaching Assistant"
+date = "2025"
+content = "Led discussion sessions, graded assignments, and supported students with problem-solving and conceptual questions."
+tags = ["Undergraduate", "Physics"]
+
+[[items]]
+title = "Mathematical Methods for Physics"
 subtitle = "Teaching Assistant"
 date = "2024"
-content = "Description of the course and responsibilities. Content of this course can be found [here](https://example.com)."
-tags = ["Undergraduate", "CS"]
+content = "Assisted with tutorials on differential equations, linear algebra, and complex analysis for physics students."
+tags = ["Undergraduate", "Mathematical Physics"]

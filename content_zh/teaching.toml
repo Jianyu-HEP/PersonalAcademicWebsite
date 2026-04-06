@@ -1,10 +1,17 @@
 type = "card"
 title = "教学"
-description = "我曾参与授课或助教的课程。"
+description = "物理及相关定量课程的教学经历。"
 
 [[items]]
-title = "示例课程"
+title = "量子力学"
+subtitle = "助教"
+date = "2025"
+content = "负责习题课、作业批改，并协助学生解决概念理解与计算练习中的问题。"
+tags = ["本科生", "物理"]
+
+[[items]]
+title = "物理中的数学方法"
 subtitle = "助教"
 date = "2024"
-content = "课程内容与职责简介。"
-tags = ["本科生", "计算机"]
+content = "协助讲授微分方程、线性代数与复变函数等物理专业常用数学工具。"
+tags = ["本科生", "数学物理"]
