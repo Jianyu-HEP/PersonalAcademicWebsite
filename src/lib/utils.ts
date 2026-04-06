@@ -25,3 +25,17 @@ export function generateSlug(text: string): string {
     .replace(/[\s_-]+/g, '-')
     .replace(/^-+|-+$/g, '');
 }
+
+export function withBasePath(path: string): string {
+  if (!path) return path;
+  if (/^(https?:)?\/\//.test(path) || path.startsWith('data:') || path.startsWith('mailto:')) {
+    return path;
+  }
+
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+  if (!basePath || !path.startsWith('/')) {
+    return path;
+  }
+
+  return path.startsWith(`${basePath}/`) ? path : `${basePath}${path}`;
+}

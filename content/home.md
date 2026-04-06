@@ -1,3 +1,5 @@
-I am a PhD student in high energy physics working on problems in collider phenomenology and precision theory. My research sits at the interface of formal field-theory methods, particle phenomenology, and experimentally relevant observables.
+I am an experimental high-energy physicist working on hyperon physics, CP violation, hyperon EDMs, and hyperon-nucleon interactions in BESIII and LHCb.
 
-This site collects a concise overview of my current research themes, selected publications, recent news, teaching activity, and links to professional profiles including Google Scholar, INSPIRE, arXiv, ORCID, and my CV.
+My work focuses on precision studies of hyperon decay dynamics and baryon-sector symmetry tests, including CP asymmetry measurements, indirect probes of hyperon electric dipole moments, and new methods for hyperon interaction studies at e+e- colliders, with additional resonance studies in charmed-hadron decays at LHCb.
+
+This homepage presents a concise overview of my research program, selected publications, talks, teaching/mentoring activities, and professional service.
