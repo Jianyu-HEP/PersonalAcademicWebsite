@@ -5,8 +5,15 @@ import { useMessages } from '@/lib/i18n/useMessages';
 
 export default function ResearchInterests({ interests }: { interests: string[] }) {
   const messages = useMessages();
+  const themes = interests.slice(0, 5).map((interest) => {
+    const [title, ...details] = interest.split(':');
+    return {
+      title: title.trim(),
+      description: details.join(':').trim(),
+    };
+  });
 
-  if (interests.length === 0) {
+  if (themes.length === 0) {
     return null;
   }
 
@@ -15,27 +22,24 @@ export default function ResearchInterests({ interests }: { interests: string[] }
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.1 }}
-      className="rounded-[1.5rem] border border-neutral-200 bg-white p-6 shadow-sm dark:border-neutral-800 dark:bg-neutral-950"
+      className="rounded-[1.25rem] border border-neutral-200 bg-white px-6 py-5 shadow-sm dark:border-neutral-800 dark:bg-neutral-950"
     >
       <div className="mb-4">
-        <h2 className="text-xl font-serif font-semibold text-primary">{messages.home.researchInterests}</h2>
-        <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400">
-          {messages.home.researchInterestsDescription}
-        </p>
+        <h2 className="text-[1.7rem] font-serif font-semibold text-primary">{messages.home.researchInterests}</h2>
       </div>
 
-      <div className="grid gap-3">
-        {interests.map((interest, index) => (
+      <div className="grid gap-3 md:grid-cols-2">
+        {themes.map((theme) => (
           <div
-            key={interest}
-            className="rounded-2xl border border-neutral-200 bg-neutral-50 px-4 py-3 dark:border-neutral-800 dark:bg-neutral-900"
+            key={theme.title}
+            className="rounded-xl border border-neutral-200/90 bg-neutral-50/80 px-4 py-3.5 dark:border-neutral-800 dark:bg-neutral-900/70"
           >
-            <div className="mb-1 text-xs font-semibold uppercase tracking-[0.18em] text-accent">
-              {String(index + 1).padStart(2, '0')}
-            </div>
-            <p className="text-sm font-medium text-neutral-800 dark:text-neutral-100">
-              {interest}
-            </p>
+            <h3 className="text-sm font-semibold text-primary">{theme.title}</h3>
+            {theme.description && (
+              <p className="mt-1.5 text-sm leading-6 text-neutral-700 dark:text-neutral-300">
+                {theme.description}
+              </p>
+            )}
           </div>
         ))}
       </div>

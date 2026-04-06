@@ -1,21 +1,27 @@
 type = "card"
 title = "Research"
-description = "Current research themes in high energy physics."
+description = "Experimental high-energy-physics program on hyperons, baryon-sector symmetry tests, and charmed-hadron spectroscopy."
 
 [[items]]
-title = "Collider Phenomenology"
-subtitle = "LHC observables, signatures, and interpretation"
-content = "Research on observables and search strategies that connect theoretical predictions to current and future collider measurements."
-tags = ["LHC", "Phenomenology", "BSM"]
+title = "Hyperon CP Violation and Decay Asymmetries"
+subtitle = "Precision measurements with entangled hyperon-antihyperon pairs"
+content = "I perform precision measurements of hyperon decay parameters and CP asymmetries, with emphasis on entangled baryon-pair production at BESIII and robust control of detector and analysis systematics."
+tags = ["Hyperons", "CP Violation", "BESIII"]
 
 [[items]]
-title = "Precision Quantum Field Theory"
-subtitle = "Perturbative calculations and theory systematics"
-content = "Work on precision calculations, uncertainty estimates, and tools that improve the comparison between theory and experiment."
-tags = ["QCD", "EFT", "Precision"]
+title = "Hyperon Electric Dipole Moments"
+subtitle = "Indirect EDM probes through full angular analyses"
+content = "I develop and apply analysis strategies to improve sensitivity to hyperon EDM effects, using multi-dimensional angular information as precision probes of CP-violating new-physics scenarios."
+tags = ["EDM", "CP Symmetry", "Precision"]
 
 [[items]]
-title = "Data-Driven Analysis in HEP"
-subtitle = "Inference and modern analysis methods"
-content = "Exploration of statistically robust and computationally efficient methods for extracting physics from complex collider data."
-tags = ["Statistics", "Inference", "Analysis"]
+title = "Hyperon-Nucleon Interactions"
+subtitle = "Baryon interaction studies at e+e- colliders"
+content = "I study hyperon-nucleon interactions with collider-produced hyperons, including inelastic processes and method development relevant to hadronic and nuclear physics."
+tags = ["Hyperon-Nucleon", "Hadron Physics", "Nuclear Implications"]
+
+[[items]]
+title = "Charm-Hadron Amplitude Analysis at LHCb"
+subtitle = "Resonance studies and partial-wave analysis"
+content = "At LHCb, I work on resonance studies in charmed-hadron decays using partial-wave analysis, and contribute to analysis production and MC coordination in the Charm working group."
+tags = ["LHCb", "Charm Physics", "Amplitude Analysis"]
