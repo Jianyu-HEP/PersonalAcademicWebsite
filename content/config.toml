@@ -56,12 +56,6 @@ target = "publications"
 href = "/publications"
 
 [[navigation]]
-title = "Talks"
-type = "page"
-target = "talks"
-href = "/talks"
-
-[[navigation]]
 title = "CV"
 type = "page"
 target = "cv"

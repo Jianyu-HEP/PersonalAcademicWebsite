@@ -14,7 +14,7 @@ interface SelectedPublicationsProps {
 export default function SelectedPublications({ publications, title, enableOnePageMode = false }: SelectedPublicationsProps) {
     const messages = useMessages();
     const resolvedTitle = title || messages.home.selectedPublications;
-    const compactPublications = publications.slice(0, 3);
+    const compactPublications = publications.slice(0, 4);
 
     return (
         <motion.section
@@ -47,6 +47,9 @@ export default function SelectedPublications({ publications, title, enableOnePag
                         <h3 className="mb-1 text-base font-semibold leading-snug text-primary">
                             {pub.title}
                         </h3>
+                        <p className="mb-1 text-sm leading-6 text-neutral-700 dark:text-neutral-300">
+                            {pub.authors.map((author) => author.name).join(', ')}
+                        </p>
                         <p className="mb-2 text-sm font-medium text-neutral-600 dark:text-neutral-400">
                             {[pub.journal || pub.conference, pub.year].filter(Boolean).join(' • ')}
                         </p>

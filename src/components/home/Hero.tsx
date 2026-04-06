@@ -15,6 +15,10 @@ interface HeroProps {
 export default function Hero({ author, social }: HeroProps) {
   const messages = useMessages();
   const roleLine = `${author.title} · ${author.institution}`;
+  const conciseInterests = (researchInterests || []).slice(0, 4).map((interest) => {
+    const [title] = interest.split(':');
+    return title.trim();
+  });
 
   return (
     <motion.section
@@ -39,6 +43,12 @@ export default function Hero({ author, social }: HeroProps) {
             <p className="max-w-3xl text-base leading-relaxed text-neutral-700 dark:text-neutral-300">
               {messages.home.heroResearchStatement}
             </p>
+            {conciseInterests.length > 0 && (
+              <p className="max-w-3xl text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
+                <span className="font-medium text-neutral-700 dark:text-neutral-300">{messages.home.researchInterests}: </span>
+                {conciseInterests.join(' · ')}
+              </p>
+            )}
           </div>
 
           <div className="flex flex-wrap gap-2.5 pt-1">

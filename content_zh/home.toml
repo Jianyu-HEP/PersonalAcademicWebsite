@@ -20,4 +20,4 @@ id = "featured_publications"
 type = "publications"
 title = "代表论文"
 filter = "selected"
-limit = 3
+limit = 4

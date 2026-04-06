@@ -3,7 +3,6 @@
 import Hero from '@/components/home/Hero';
 import About from '@/components/home/About';
 import QuickLinks from '@/components/home/QuickLinks';
-import ResearchInterests from '@/components/home/ResearchInterests';
 import SelectedPublications from '@/components/home/SelectedPublications';
 import News, { NewsItem } from '@/components/home/News';
 import PublicationsList from '@/components/publications/PublicationsList';
@@ -83,10 +82,6 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
               />
             </section>
           )}
-
-          <section id="research">
-            <ResearchInterests interests={data.researchInterests || []} />
-          </section>
 
           {publicationsSection?.type === 'publications' && (
             <section id="selected-publications">
