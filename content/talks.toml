@@ -1,17 +1,38 @@
 type = "card"
 title = "Talks"
-description = "Selected talks, seminars, and conference presentations."
+description = "Selected conference and workshop presentations in hyperon and charm physics."
 
 [[items]]
-title = "Seminar Title Placeholder"
-subtitle = "Theory Seminar, Example Institute"
-date = "2026"
-content = "Summary of the talk topic, emphasizing the physics question, method, and main result."
-tags = ["Seminar", "Collider Phenomenology"]
+title = "CP violation tests of hyperon-antihyperon pairs at BESIII"
+subtitle = "International Conference on the Structure of Baryons, Andalusia, Spain"
+date = "2022"
+content = "Talk on precision CP-violation tests using entangled hyperon-antihyperon production at BESIII."
+tags = ["Conference Talk", "Hyperons", "CP Violation"]
 
 [[items]]
-title = "Conference Talk Placeholder"
-subtitle = "International Conference on High Energy Physics"
-date = "2025"
-content = "Short description of the conference presentation and its connection to ongoing research."
-tags = ["Conference", "HEP"]
+title = "Probe hyperon electric dipole moments at e+e- colliders"
+subtitle = "MESON 2023, Mainz, Germany"
+date = "2023"
+content = "Presented angular-analysis methods for indirect EDM searches in hyperon systems."
+tags = ["Conference Talk", "EDM", "Baryon Physics"]
+
+[[items]]
+title = "Searching for Hyperon Electric Dipole Moments at STCF"
+subtitle = "Future Tau Charm Facilities Workshop 2024, Guangzhou, China"
+date = "2024"
+content = "Talk on EDM sensitivity studies and future detector/analysis prospects at tau-charm facilities."
+tags = ["Workshop Talk", "STCF", "EDM"]
+
+[[items]]
+title = "Experimental Program for Super Tau-Charm Facility"
+subtitle = "Hadron Spectroscopy and Hadron Structure 2024, Chengdu (Plenary Talk, Invited)"
+date = "2024"
+content = "Invited plenary presentation on the experimental baryon and hadron-structure program at STCF."
+tags = ["Plenary", "Invited Talk", "STCF"]
+
+[[items]]
+title = "A novel method to search for CP violation with entangled hyperon-anti-hyperon production in J/psi decay"
+subtitle = "In Memory of Tsung-Dao Lee Meeting 2024, Shanghai (Invited)"
+date = "2024"
+content = "Invited talk introducing a novel CP-violation search strategy in entangled hyperon channels."
+tags = ["Invited Talk", "CP Violation", "BESIII"]

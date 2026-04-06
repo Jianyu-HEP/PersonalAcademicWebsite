@@ -1,3 +1,3 @@
-I am a PhD student in high energy physics working on problems in collider phenomenology and precision theory. My research sits at the interface of formal field-theory methods, particle phenomenology, and experimentally relevant observables.
+I am an experimental high-energy physicist focused on strange-baryon dynamics and precision tests of fundamental symmetries. My work combines BESIII and LHCb data to study hyperon CP violation, hyperon electric dipole moments, and hyperon-nucleon interactions through experimentally robust observables.
 
-This site collects a concise overview of my current research themes, selected publications, recent news, teaching activity, and links to professional profiles including Google Scholar, INSPIRE, arXiv, ORCID, and my CV.
+Since December 2025, I have served as an Assistant Professor at the National Centre for Nuclear Research (NCBJ), Poland, while maintaining research affiliation with the University of Chinese Academy of Sciences in Beijing.

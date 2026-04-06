@@ -5,14 +5,18 @@ import Image from 'next/image';
 import Link from 'next/link';
 import type { SiteConfig } from '@/lib/config';
 import { useMessages } from '@/lib/i18n/useMessages';
+import { withBasePath } from '@/lib/utils';
 
 interface HeroProps {
   author: SiteConfig['author'];
   social: SiteConfig['social'];
-  researchInterests?: string[];
 }
 
-export default function Hero({ author, social, researchInterests }: HeroProps) {
+type HeroComponentProps = HeroProps & {
+  researchInterests?: string[];
+};
+
+export default function Hero({ author, social, researchInterests = [] }: HeroComponentProps) {
   const messages = useMessages();
 
   return (
@@ -39,10 +43,13 @@ export default function Hero({ author, social, researchInterests }: HeroProps) {
               <p className="text-sm uppercase tracking-[0.18em] text-neutral-500 dark:text-neutral-400">
                 {author.institution}
               </p>
+              <p className="text-sm leading-6 text-neutral-600 dark:text-neutral-400">
+                {messages.home.heroResearchStatement}
+              </p>
             </div>
           </div>
 
-          {researchInterests && researchInterests.length > 0 && (
+          {researchInterests.length > 0 && (
             <div className="space-y-3">
               <p className="text-sm font-medium uppercase tracking-[0.16em] text-neutral-500 dark:text-neutral-400">
                 {messages.home.currentThemes}
@@ -62,13 +69,13 @@ export default function Hero({ author, social, researchInterests }: HeroProps) {
 
           <div className="flex flex-wrap gap-3 pt-2">
             <Link
-              href="/research"
+              href={withBasePath('/research')}
               className="inline-flex items-center rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-primary-light"
             >
               {messages.home.viewResearch}
             </Link>
             <Link
-              href={typeof social.cv === 'string' ? social.cv : '/cv'}
+              href={withBasePath(typeof social.cv === 'string' ? social.cv : '/cv')}
               className="inline-flex items-center rounded-full border border-neutral-300 px-5 py-2.5 text-sm font-medium text-primary transition-colors hover:border-accent hover:text-accent dark:border-neutral-700 dark:text-neutral-100"
             >
               {messages.home.viewCv}
@@ -79,7 +86,7 @@ export default function Hero({ author, social, researchInterests }: HeroProps) {
         <div className="mx-auto w-full max-w-[18rem]">
           <div className="relative mx-auto aspect-[4/5] overflow-hidden rounded-[1.75rem] border border-white/70 bg-neutral-200 shadow-lg dark:border-neutral-800 dark:bg-neutral-900">
             <Image
-              src={author.avatar}
+              src={withBasePath(author.avatar)}
               alt={author.name}
               fill
               priority
