@@ -3,15 +3,15 @@ title = "Talks"
 description = "Selected talks, seminars, and conference presentations."
 
 [[items]]
-title = "Seminar Title Placeholder"
-subtitle = "Theory Seminar, Example Institute"
+title = "[PLACEHOLDER] Precision SMEFT Constraints from Differential LHC Observables"
+subtitle = "[PLACEHOLDER] Theory Seminar, Institute for Particle Physics"
 date = "2026"
-content = "Summary of the talk topic, emphasizing the physics question, method, and main result."
-tags = ["Seminar", "Collider Phenomenology"]
+content = "Presented a framework for combining differential measurements with EFT theory errors to obtain stable, model-independent constraints on higher-dimensional operators."
+tags = ["Seminar", "SMEFT", "Collider Phenomenology"]
 
 [[items]]
-title = "Conference Talk Placeholder"
-subtitle = "International Conference on High Energy Physics"
+title = "[PLACEHOLDER] Jet Substructure Benchmarks for New-Physics Searches"
+subtitle = "[PLACEHOLDER] International Conference on High Energy Physics (ICHEP)"
 date = "2025"
-content = "Short description of the conference presentation and its connection to ongoing research."
-tags = ["Conference", "HEP"]
+content = "Discussed precision-motivated jet observables and their sensitivity to heavy new-physics scales, with attention to systematic uncertainties in realistic analyses."
+tags = ["Conference", "Jets", "BSM"]

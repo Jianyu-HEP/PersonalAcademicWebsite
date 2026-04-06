@@ -2,6 +2,20 @@
 
 This guide is designed for beginners. You don't need complex configurations to deploy your website.
 
+## Recommended Cloud Build Environment (Next.js)
+
+Use the following settings in cloud CI/CD platforms (GitHub Actions, Cloudflare Pages, Netlify, Vercel, etc.) to ensure consistent builds:
+
+- **Node.js version**: `22.x` (project requires Node `>=22`, see `.nvmrc`)
+- **Install command**: `npm ci`
+- **Build command**: `npm run build`
+- **Publish/output directory**: `out`
+
+If your provider supports environment variables for build tooling, set:
+
+- `NODE_VERSION=22`
+- `NPM_CONFIG_ENGINE_STRICT=true` (optional but recommended to fail fast on wrong Node versions)
+
 ## Option 1: GitHub Pages
 
 1.  **Build your project**
@@ -45,7 +59,7 @@ This guide is designed for beginners. You don't need complex configurations to d
 6.  **Done!**
     Visit `https://username.github.io` to see your website.
 
-### (Optional) Deploy Automatically with GitHub Actions
+### Deploy with GitHub Actions (Recommended for Preview)
 
 PRISM also supports **automatic deployment to GitHub Pages** using GitHub Actions.  
 This method is recommended if you want your site to update automatically whenever you push changes.
@@ -58,31 +72,21 @@ This repository includes an optional workflow located at:
 .github/workflows/deploy.yml
 ```
 
-For template users, GitHub disables workflows by default.  
 To enable deployment:
 
 1. Go to **Settings > Pages**, and under **Build and deployment > Source**, choose **GitHub Actions**.
 2. Go to **Actions** Tab, and select **"Deploy PRISM to GitHub Pages"**.
 3. Click **"Enable workflow"**.
-4. Run manually using **Run workflow**.
-5. (Optional) To enable automatic deployment on push:  
-   Edit `.github/workflows/deploy.yml` and uncomment:
-
-   ```yaml
-   on:
-     push:
-       branches:
-         - main
-         - ci
-   ```
+4. Run manually using **Run workflow** (for a one-time preview).
+5. Automatic deploys from `main` are enabled in `.github/workflows/deploy.yml`.
 
 Once enabled, GitHub Actions will:
 
-- Build your site (`npm install && npm run build`)
+- Build your site (`npm ci && npm run build`)
 - Export static files into `out/`
 - Deploy automatically to GitHub Pages
 
-Your site will be available at `https://<username>.github.io`
+Your site will be available at `https://<username>.github.io` (or `https://<username>.github.io/<repository>/` for project repositories).
 
 If you are using a repository other than `username.github.io`, your site will be at `https://<username>.github.io/<repository>/`.
 

@@ -1,7 +1,15 @@
 # About
 
-I am a researcher in high energy physics with interests in collider phenomenology, quantum field theory, and data-driven methods for precision measurements.
+I am a PhD researcher in high-energy physics with a focus on **collider phenomenology**, **effective field theory**, and **precision tests of the Standard Model**.
 
-My work focuses on building quantitative connections between theory and experiment, especially in problems where effective field theory, perturbative calculations, and modern analysis strategies meet.
+My work aims to build quantitative bridges between theory and experiment, especially for observables where perturbative QCD, electroweak effects, and realistic detector-facing analysis choices all matter simultaneously.
 
-Before my current position, I studied physics and developed a strong interest in the conceptual and computational tools that underpin particle physics. This page is designed to provide a concise overview of my research, publications, talks, teaching, and professional materials.
+I am particularly interested in:
+
+- precision collider observables and uncertainty quantification,
+- model-independent BSM interpretations using EFT frameworks,
+- robust and reproducible analysis pipelines for HEP data.
+
+Before my current position, I received training in theoretical and computational physics and developed a strong interest in the conceptual foundations of particle physics.
+
+Institutional details, advisor names, and timeline entries are currently marked as **[PLACEHOLDER]** where needed and can be updated directly in the content files.

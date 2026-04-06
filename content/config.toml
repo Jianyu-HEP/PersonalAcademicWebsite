@@ -1,29 +1,29 @@
 [site]
 title = "Jiale Liu"
-description = "High energy physics research homepage."
+description = "Academic homepage for research in high-energy physics and collider phenomenology."
 favicon = "/favicon.svg"
 last_updated = "April 5, 2026"
 
 [author]
 name = "Jiale Liu"
-title = "PhD Student in High Energy Physics"
-institution = "University of Example"
+title = "PhD Student in High-Energy Physics"
+institution = "[PLACEHOLDER: University / Institute]"
 avatar = "/bio.jpg"
 
 [social]
-email = "john.doe@example.com"
-location = "City, Country"
-location_url = "https://maps.google.com"
+email = "[PLACEHOLDER: your.email@institution.edu]"
+location = "[PLACEHOLDER: City, Country]"
+location_url = "https://maps.google.com/?q=[PLACEHOLDER]"
 location_details = [
-  "Room 123, Science Building,",
-  "University Avenue, City, Country"
+  "[PLACEHOLDER: Office / Building],",
+  "[PLACEHOLDER: Street / Campus, City, Country]"
 ]
-google_scholar = "https://scholar.google.com"
-orcid = "https://orcid.org"
-github = "https://github.com"
-linkedin = "https://linkedin.com"
-inspire = "https://inspirehep.net"
-arxiv = "https://arxiv.org"
+google_scholar = "https://scholar.google.com/citations?user=[PLACEHOLDER]"
+orcid = "https://orcid.org/[PLACEHOLDER]"
+github = "https://github.com/[PLACEHOLDER]"
+linkedin = "https://www.linkedin.com/in/[PLACEHOLDER]"
+inspire = "https://inspirehep.net/authors/[PLACEHOLDER]"
+arxiv = "https://arxiv.org/a/[PLACEHOLDER].html"
 cv = "/cv"
 
 [features]
